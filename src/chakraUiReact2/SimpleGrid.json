@@ -1,0 +1,140 @@
+{
+  "name": "SimpleGrid",
+  "props": {
+    "autoColumns": {
+      "type": "ResponsiveValue<GridAutoColumns<0 | (string & {})>>",
+      "required": false,
+      "description": "Shorthand prop for `gridAutoColumns`",
+      "default": "",
+      "description_zh": "'gridAutoColumns' 的简写 prop",
+      "value": ""
+    },
+    "autoFlow": {
+      "type": "ResponsiveValue<GridAutoFlow>",
+      "required": false,
+      "description": "Shorthand prop for `gridAutoFlow`",
+      "default": "",
+      "description_zh": "'gridAutoFlow' 的简写 prop",
+      "value": ""
+    },
+    "autoRows": {
+      "type": "ResponsiveValue<GridAutoRows<0 | (string & {})>>",
+      "required": false,
+      "description": "Shorthand prop for `gridAutoRows`",
+      "default": "",
+      "description_zh": "'gridAutoRows' 的简写属性",
+      "value": ""
+    },
+    "column": {
+      "type": "ResponsiveValue<GridColumn>",
+      "required": false,
+      "description": "Shorthand prop for `gridColumn`",
+      "default": "",
+      "description_zh": "'gridColumn' 的简写 prop",
+      "value": ""
+    },
+    "columnGap": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "Shorthand prop for `gridColumnGap`",
+      "default": "",
+      "description_zh": "'gridColumnGap' 的简写 prop",
+      "value": ""
+    },
+    "columns": {
+      "type": "ResponsiveValue<number>",
+      "required": false,
+      "description": "The number of columns",
+      "default": "",
+      "description_zh": "列数",
+      "value": ""
+    },
+    "gap": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "Shorthand prop for `gridGap`",
+      "default": "",
+      "description_zh": "'gridGap' 的简写 prop",
+      "value": ""
+    },
+    "minChildWidth": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The width at which child elements will break into columns. Pass a number for pixel values or a string for any other valid CSS length.",
+      "default": "",
+      "description_zh": "子元素将分成列的宽度。为像素值传递一个数字，或为任何其他有效的 CSS 长度传递一个字符串。",
+      "value": ""
+    },
+    "row": {
+      "type": "ResponsiveValue<GridRow>",
+      "required": false,
+      "description": "Shorthand prop for `gridRow`",
+      "default": "",
+      "description_zh": "'gridRow' 的简写 prop",
+      "value": ""
+    },
+    "rowGap": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "Shorthand prop for `gridRowGap`",
+      "default": "",
+      "description_zh": "'gridRowGap' 的简写 prop",
+      "value": ""
+    },
+    "spacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The gap between the grid items",
+      "default": "",
+      "description_zh": "网格项之间的间隙",
+      "value": ""
+    },
+    "spacingX": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The column gap between the grid items",
+      "default": "",
+      "description_zh": "网格项之间的列间距",
+      "value": ""
+    },
+    "spacingY": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The row gap between the grid items",
+      "default": "",
+      "description_zh": "网格项之间的行间距",
+      "value": ""
+    },
+    "templateAreas": {
+      "type": "ResponsiveValue<GridTemplateAreas>",
+      "required": false,
+      "description": "Shorthand prop for `gridTemplateAreas`",
+      "default": "",
+      "description_zh": "'gridTemplateAreas' 的简写 prop",
+      "value": ""
+    },
+    "templateColumns": {
+      "type": "ResponsiveValue<GridTemplateColumns<0 | (string & {})>>",
+      "required": false,
+      "description": "Shorthand prop for `gridTemplateColumns`",
+      "default": "",
+      "description_zh": "'gridTemplateColumns' 的简写 prop",
+      "value": ""
+    },
+    "templateRows": {
+      "type": "ResponsiveValue<GridTemplateRows<0 | (string & {})>>",
+      "required": false,
+      "description": "Shorthand prop for `gridTemplateRows`",
+      "default": "",
+      "description_zh": "'gridTemplateRows' 的简写 prop",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/grid.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/grid.json"
+}

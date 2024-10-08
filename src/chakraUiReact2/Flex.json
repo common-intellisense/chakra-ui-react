@@ -1,0 +1,69 @@
+{
+  "name": "Flex",
+  "props": {
+    "align": {
+      "type": "ResponsiveValue<AlignItems>",
+      "required": false,
+      "description": "Shorthand for `alignItems` style prop",
+      "default": "",
+      "description_zh": "'alignItems' 样式 prop 的简写",
+      "value": ""
+    },
+    "basis": {
+      "type": "ResponsiveValue<FlexBasis<Length>>",
+      "required": false,
+      "description": "Shorthand for `flexBasis` style prop",
+      "default": "",
+      "description_zh": "'flexBasis' 样式 prop 的简写",
+      "value": ""
+    },
+    "direction": {
+      "type": "ResponsiveValue<FlexDirection>",
+      "defaultValue": "row",
+      "required": false,
+      "description": "Shorthand for `flexDirection` style prop",
+      "default": "row",
+      "description_zh": "'flexDirection' 样式 prop 的简写",
+      "value": ""
+    },
+    "grow": {
+      "type": "ResponsiveValue<FlexGrow>",
+      "required": false,
+      "description": "Shorthand for `flexGrow` style prop",
+      "default": "",
+      "description_zh": "'flexGrow' 样式 prop 的简写",
+      "value": ""
+    },
+    "justify": {
+      "type": "ResponsiveValue<JustifyContent>",
+      "required": false,
+      "description": "Shorthand for `justifyContent` style prop",
+      "default": "",
+      "description_zh": "'justifyContent' 样式 prop 的简写",
+      "value": ""
+    },
+    "shrink": {
+      "type": "ResponsiveValue<FlexShrink>",
+      "required": false,
+      "description": "Shorthand for `flexShrink` style prop",
+      "default": "",
+      "description_zh": "'flexShrink' 样式 prop 的简写",
+      "value": ""
+    },
+    "wrap": {
+      "type": "ResponsiveValue<FlexWrap>",
+      "required": false,
+      "description": "Shorthand for `flexWrap` style prop",
+      "default": "",
+      "description_zh": "'flexWrap' 样式 prop 的简写",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/flex.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/flex.json"
+}

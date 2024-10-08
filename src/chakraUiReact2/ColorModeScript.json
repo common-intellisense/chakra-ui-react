@@ -1,0 +1,44 @@
+{
+  "name": "ColorModeScript",
+  "props": {
+    "initialColorMode": {
+      "type": "light / dark / system",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "nonce": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "storageKey": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "type": {
+      "type": "localStorage / cookie",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/color-mode.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/color-mode.json"
+}

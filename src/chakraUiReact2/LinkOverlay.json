@@ -1,0 +1,21 @@
+{
+  "name": "LinkOverlay",
+  "props": {
+    "isExternal": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the link will open in new tab",
+      "default": "",
+      "description_zh": "如果为 'true'，则链接将在新选项卡中打开",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/link.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/link.json"
+}

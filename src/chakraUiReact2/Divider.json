@@ -1,0 +1,45 @@
+{
+  "name": "Divider",
+  "props": {
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "orientation": {
+      "type": "horizontal / vertical",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "size": {
+      "type": "string",
+      "required": false,
+      "description": "The size of the Divider",
+      "default": "",
+      "description_zh": "分隔线的大小",
+      "value": ""
+    },
+    "variant": {
+      "defaultValue": "solid",
+      "type": "solid / dashed",
+      "required": false,
+      "description": "The variant of the Divider",
+      "default": "solid",
+      "description_zh": "Divider 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/divider.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/divider.json"
+}

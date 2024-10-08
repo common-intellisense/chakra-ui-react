@@ -1,0 +1,30 @@
+{
+  "name": "Tab",
+  "props": {
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the `Tab` won't be toggleable",
+      "default": "",
+      "description_zh": "如果为 'true'，则 'Tab' 将不可切换",
+      "value": ""
+    },
+    "isFocusable": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true` and `isDisabled`, the `Tab` will be focusable but not interactive.",
+      "default": "",
+      "description_zh": "如果为 'true' 和 'isDisabled'，则 'Tab' 将是可聚焦的，但不是交互式的。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/tabs.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/tabs.json"
+}

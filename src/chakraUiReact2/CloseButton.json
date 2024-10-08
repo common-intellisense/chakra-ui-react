@@ -1,0 +1,46 @@
+{
+  "name": "CloseButton",
+  "props": {
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the close button will be disabled.",
+      "default": "",
+      "description_zh": "如果为 'true'，则关闭按钮将被禁用。",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "lg / md / sm",
+      "required": false,
+      "description": "The size of the CloseButton",
+      "default": "md",
+      "description_zh": "CloseButton 的大小",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the CloseButton",
+      "default": "",
+      "description_zh": "CloseButton 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/close-button.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/close-button.json"
+}

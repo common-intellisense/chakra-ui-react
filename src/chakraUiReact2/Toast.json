@@ -1,0 +1,120 @@
+{
+  "name": "Toast",
+  "props": {
+    "addRole": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "containerStyle": {
+      "type": "SystemProps",
+      "required": false,
+      "description": "Optional style overrides for the container wrapping the toast component.",
+      "default": "",
+      "description_zh": "包装 toast 组件的容器的可选样式覆盖。",
+      "value": ""
+    },
+    "description": {
+      "type": "type ONLY_FOR_FORMAT =\n  | string\n  | number\n  | boolean\n  | ReactElement<any, string | JSXElementConstructor<any>>\n  | Iterable<ReactNode>\n  | ReactPortal\n  | PromiseLikeOfReactNode",
+      "required": false,
+      "description": "The description of the toast",
+      "default": "",
+      "description_zh": "toast 的说明",
+      "value": ""
+    },
+    "duration": {
+      "type": "number",
+      "defaultValue": "5000 ( = 5000ms )",
+      "required": false,
+      "description": "The delay before the toast hides (in milliseconds)\nIf set to `null`, toast will never dismiss.",
+      "default": "5000 ( = 5000ms )",
+      "description_zh": "隐藏 Toast 之前的延迟（以毫秒为单位）\n如果设置为 'null'，则 toast 将永远不会关闭。",
+      "value": ""
+    },
+    "icon": {
+      "type": "type ONLY_FOR_FORMAT =\n  | string\n  | number\n  | boolean\n  | ReactElement<any, string | JSXElementConstructor<any>>\n  | Iterable<ReactNode>\n  | ReactPortal\n  | PromiseLikeOfReactNode",
+      "required": false,
+      "description": "A custom icon that will be displayed by the toast.",
+      "default": "",
+      "description_zh": "Toast 将显示的自定义图标。",
+      "value": ""
+    },
+    "id": {
+      "type": "ToastId",
+      "required": false,
+      "description": "The `id` of the toast.\n\nMostly used when you need to prevent duplicate.\nBy default, we generate a unique `id` for each toast",
+      "default": "",
+      "description_zh": "toast 的 'id'。\n\n主要用于需要防止重复的情况。\n默认情况下，我们为每个 toast 生成一个唯一的 'id'",
+      "value": ""
+    },
+    "isClosable": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, toast will show a close button",
+      "default": "",
+      "description_zh": "如果为 'true'，则 toast 将显示关闭按钮",
+      "value": ""
+    },
+    "onClose": {
+      "type": "() => void",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCloseComplete": {
+      "type": "() => void",
+      "required": false,
+      "description": "Callback function to run side effects after the toast has closed.",
+      "default": "",
+      "description_zh": "回调函数，用于在 toast 关闭后运行副作用。",
+      "value": ""
+    },
+    "position": {
+      "type": "ToastPosition",
+      "defaultValue": "bottom",
+      "required": false,
+      "description": "The placement of the toast",
+      "default": "bottom",
+      "description_zh": "Toast 的位置",
+      "value": ""
+    },
+    "render": {
+      "type": "(props: RenderProps) => ReactNode",
+      "required": false,
+      "description": "Render a component toast component.\nAny component passed will receive 2 props: `id` and `onClose`.",
+      "default": "",
+      "description_zh": "呈现组件 toast 组件。\n任何传递的组件都将收到 2 个 props： 'id' 和 'onClose'。",
+      "value": ""
+    },
+    "status": {
+      "type": "success / error / warning / info / loading",
+      "required": false,
+      "description": "The status of the toast.",
+      "default": "",
+      "description_zh": "Toast 的状态。",
+      "value": ""
+    },
+    "title": {
+      "type": "type ONLY_FOR_FORMAT =\n  | string\n  | number\n  | boolean\n  | ReactElement<any, string | JSXElementConstructor<any>>\n  | Iterable<ReactNode>\n  | ReactPortal\n  | PromiseLikeOfReactNode",
+      "required": false,
+      "description": "The title of the toast",
+      "default": "",
+      "description_zh": "toast 的标题",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/toast.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/toast.json"
+}

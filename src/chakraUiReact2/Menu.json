@@ -1,0 +1,218 @@
+{
+  "name": "Menu",
+  "props": {
+    "arrowPadding": {
+      "type": "number",
+      "defaultValue": "8",
+      "required": false,
+      "description": "The padding required to prevent the arrow from\nreaching the very edge of the popper.",
+      "default": "8",
+      "description_zh": "防止箭头\n到达 Popper 的边缘。",
+      "value": ""
+    },
+    "autoSelect": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the first enabled menu item will receive focus and be selected\nwhen the menu opens.",
+      "default": true,
+      "description_zh": "如果为 'true'，则第一个启用的菜单项将获得焦点并被选中\n当菜单打开时。",
+      "value": ""
+    },
+    "boundary": {
+      "type": "HTMLElement | \"clippingParents\" | \"scrollParent\"",
+      "defaultValue": "clippingParents",
+      "required": false,
+      "description": "The boundary area for the popper. Used within the `preventOverflow` modifier",
+      "default": "clippingParents",
+      "description_zh": "弹出器的边界区域。在 'preventOverflow' 修饰符中使用",
+      "value": ""
+    },
+    "closeOnBlur": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the menu will close when you click outside\nthe menu list",
+      "default": true,
+      "description_zh": "如果为“true”，则当您在外部单击时，菜单将关闭\n菜单列表",
+      "value": ""
+    },
+    "closeOnSelect": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the menu will close when a menu item is\nclicked",
+      "default": true,
+      "description_zh": "如果为 'true'，则当菜单项为\n点击",
+      "value": ""
+    },
+    "computePositionOnMount": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "defaultIsOpen": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "direction": {
+      "type": "ltr / rtl",
+      "required": false,
+      "description": "If `rtl`, proper placement positions will be flipped i.e. 'top-right' will\nbecome 'top-left' and vice-verse",
+      "default": "",
+      "description_zh": "如果为 'rtl'，则正确的放置位置将被翻转，即 'top-right' 将\n变为 'top-left' 和 counter-verse",
+      "value": ""
+    },
+    "eventListeners": {
+      "type": "type ONLY_FOR_FORMAT =\n  | boolean\n  | { scroll?: boolean | undefined; resize?: boolean | undefined }",
+      "defaultValue": true,
+      "required": false,
+      "description": "If provided, determines whether the popper will reposition itself on `scroll`\nand `resize` of the window.",
+      "default": true,
+      "description_zh": "如果提供，则确定 popper 是否在 'scroll' 时重新定位自身\n以及窗口的 'resize' 来调整大小。",
+      "value": ""
+    },
+    "flip": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the popper will change its placement and flip when it's\nabout to overflow its boundary area.",
+      "default": true,
+      "description_zh": "如果为 'true'，则 popper 将更改其位置并在\n即将溢出其边界区域。",
+      "value": ""
+    },
+    "gutter": {
+      "type": "number",
+      "defaultValue": "8",
+      "required": false,
+      "description": "The distance or margin between the reference and popper.\nIt is used internally to create an `offset` modifier.\n\nNB: If you define `offset` prop, it'll override the gutter.",
+      "default": "8",
+      "description_zh": "引用和 popper 之间的距离或边距。\n它在内部用于创建 'offset' 修饰符。\n\n注意：如果你定义了 'offset' prop，它将覆盖 gutter。",
+      "value": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "initialFocusRef": {
+      "type": "RefObject<{ focus(): void }>",
+      "required": false,
+      "description": "The `ref` of the element that should receive focus when the popover opens.",
+      "default": "",
+      "description_zh": "弹出窗口打开时应获得焦点的元素的 'ref'。",
+      "value": ""
+    },
+    "isLazy": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "Performance 🚀:\nIf `true`, the MenuItem rendering will be deferred\nuntil the menu is open.",
+      "default": "",
+      "description_zh": "性能 🚀 ：\n如果为 'true'，则 MenuItem 渲染将被延迟\n直到菜单打开。",
+      "value": ""
+    },
+    "isOpen": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "lazyBehavior": {
+      "type": "LazyMode",
+      "defaultValue": "unmount",
+      "required": false,
+      "description": "Performance 🚀:\nThe lazy behavior of menu's content when not visible.\nOnly works when `isLazy={true}`\n\n- \"unmount\": The menu's content is always unmounted when not open.\n- \"keepMounted\": The menu's content initially unmounted,\nbut stays mounted when menu is open.",
+      "default": "unmount",
+      "description_zh": "性能 🚀 ：\n菜单内容不可见时的延迟行为。\n仅在 'isLazy={true}' 时有效\n\n- “unmount”：菜单的内容在未打开时始终处于卸载状态。\n- “keepMounted”：菜单的内容最初已卸载，\n但在菜单打开时保持挂载状态。",
+      "value": ""
+    },
+    "matchWidth": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the popper will match the width of the reference at all times.\nIt's useful for `autocomplete`, `date-picker` and `select` patterns.",
+      "default": "",
+      "description_zh": "如果为 'true'，则 popper 将始终匹配引用的宽度。\n它对 'autocomplete'、'date-picker' 和 'select' 模式很有用。",
+      "value": ""
+    },
+    "modifiers": {
+      "type": "Partial<Modifier<string, any>>[]",
+      "required": false,
+      "description": "Array of popper.js modifiers. Check the docs to see\nthe list of possible modifiers you can pass.",
+      "default": "",
+      "description_zh": "popper.js 修饰符的数组。查看文档以查看\n可以传递的可能修饰符列表。",
+      "value": ""
+    },
+    "offset": {
+      "type": "[number, number]",
+      "required": false,
+      "description": "The main and cross-axis offset to displace popper element\nfrom its reference element.",
+      "default": "",
+      "description_zh": "主轴和交叉轴偏移量以取代 popper 元素\n从其 reference 元素中。",
+      "value": ""
+    },
+    "onClose": {
+      "type": "() => void",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onOpen": {
+      "type": "() => void",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "placement": {
+      "type": "PlacementWithLogical",
+      "defaultValue": "bottom",
+      "required": false,
+      "description": "The placement of the popper relative to its reference.",
+      "default": "bottom",
+      "description_zh": "popper 相对于其引用的位置。",
+      "value": ""
+    },
+    "preventOverflow": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, will prevent the popper from being cut off and ensure\nit's visible within the boundary area.",
+      "default": true,
+      "description_zh": "如果为 'true'，则防止 popper 被切断并确保\n它在边界区域内可见。",
+      "value": ""
+    },
+    "strategy": {
+      "type": "fixed / absolute",
+      "defaultValue": "absolute",
+      "required": false,
+      "description": "The CSS positioning strategy to use.",
+      "default": "absolute",
+      "description_zh": "要使用的 CSS 定位策略。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/menu.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/menu.json"
+}

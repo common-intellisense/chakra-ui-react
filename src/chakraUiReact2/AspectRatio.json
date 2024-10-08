@@ -1,0 +1,20 @@
+{
+  "name": "AspectRatio",
+  "props": {
+    "ratio": {
+      "type": "ResponsiveValue<number>",
+      "required": false,
+      "description": "The aspect ratio of the Box. Common values are:\n\n`21/9`, `16/9`, `9/16`, `4/3`, `1.85/1`",
+      "default": "",
+      "description_zh": "Box 的纵横比。常见值为：\n\n'21/9'， '16/9'， '9/16'， '4/3'， '1.85/1'",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/aspect-ratio.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/aspect-ratio.json"
+}

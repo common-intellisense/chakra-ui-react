@@ -1,0 +1,71 @@
+{
+  "name": "RadioGroup",
+  "props": {
+    "defaultValue": {
+      "type": "string",
+      "required": false,
+      "description": "The value of the radio to be `checked`\ninitially (in uncontrolled mode)",
+      "default": "",
+      "description_zh": "要 'check' 的 radio 的值\n初始 （在非受控模式下）",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, all wrapped radio inputs will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则所有包装的单选输入都将被禁用",
+      "value": ""
+    },
+    "isFocusable": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true` and `isDisabled` is true, all wrapped radio inputs will remain\nfocusable but not interactive.",
+      "default": "",
+      "description_zh": "如果 'true' 和 'isDisabled' 为 true，则所有包装的单选输入将保留\n可聚焦但不是交互式的。",
+      "value": ""
+    },
+    "isNative": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, input elements will receive\n`checked` attribute instead of `isChecked`.\n\nThis assumes, you're using native radio inputs",
+      "default": "",
+      "description_zh": "如果为 'true'，则 input 元素将接收\n'checked' 属性而不是 'isChecked' 属性。\n\n这假设您使用的是本机无线电输入",
+      "value": ""
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "description": "The `name` attribute forwarded to each `radio` element",
+      "default": "",
+      "description_zh": "转发给每个 'radio' 元素的 'name' 属性",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(nextValue: string) => void",
+      "required": false,
+      "description": "Function called once a radio is checked",
+      "default": "",
+      "description_zh": "检查无线电后调用的函数",
+      "value": ""
+    },
+    "value": {
+      "type": "string",
+      "required": false,
+      "description": "The value of the radio to be `checked`\n(in controlled mode)",
+      "default": "",
+      "description_zh": "要 'check' 的 radio 的值\n（在受控模式下）",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/radio.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/radio.json"
+}

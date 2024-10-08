@@ -1,0 +1,91 @@
+{
+  "name": "Progress",
+  "props": {
+    "colorScheme": {
+      "defaultValue": "blue",
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "blue",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "hasStripe": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the progress bar will show stripe",
+      "default": "",
+      "description_zh": "如果为 'true'，则进度条将显示 stripe",
+      "value": ""
+    },
+    "isAnimated": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, and hasStripe is `true`, the stripes will be animated",
+      "default": "",
+      "description_zh": "如果为 'true'，并且 hasStripe 为 'true'，则将对条带进行动画处理",
+      "value": ""
+    },
+    "isIndeterminate": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the progress will be indeterminate and the `value`\nprop will be ignored",
+      "default": "",
+      "description_zh": "如果为 'true'，则进度将是不确定的，并且 'value'\nprop 将被忽略",
+      "value": ""
+    },
+    "max": {
+      "type": "number",
+      "defaultValue": "100",
+      "required": false,
+      "description": "The maximum value of the progress",
+      "default": "100",
+      "description_zh": "进度的最大值",
+      "value": ""
+    },
+    "min": {
+      "type": "number",
+      "defaultValue": "0",
+      "required": false,
+      "description": "The minimum value of the progress",
+      "default": "0",
+      "description_zh": "进度的最小值",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "xs / sm / md / lg",
+      "required": false,
+      "description": "The size of the Progress",
+      "default": "md",
+      "description_zh": "进度的大小",
+      "value": ""
+    },
+    "value": {
+      "type": "number",
+      "required": false,
+      "description": "The `value` of the progress indicator.\nIf `undefined` the progress bar will be in `indeterminate` state",
+      "default": "",
+      "description_zh": "进度指示器的 'value'。\n如果为 'undefined'，则进度条将处于 'indeterminate' 状态",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Progress",
+      "default": "",
+      "description_zh": "Progress 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/progress.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/progress.json"
+}

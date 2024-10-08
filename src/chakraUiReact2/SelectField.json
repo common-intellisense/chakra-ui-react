@@ -1,0 +1,21 @@
+{
+  "name": "SelectField",
+  "props": {
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/select.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/select.json"
+}

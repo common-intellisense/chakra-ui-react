@@ -1,0 +1,166 @@
+{
+  "name": "Radio",
+  "props": {
+    "aria-describedby": {
+      "type": "string",
+      "required": false,
+      "description": "Refers to the `id` of the element that labels the radio element.",
+      "default": "",
+      "description_zh": "指标记 radio 元素的元素的 'id'。",
+      "value": ""
+    },
+    "colorScheme": {
+      "defaultValue": "blue",
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "blue",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "data-radiogroup": {
+      "type": "any",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "defaultChecked": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the radio will be initially checked.",
+      "default": "",
+      "description_zh": "如果为 'true'，则最初将检查单选按钮。",
+      "value": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "description": "id assigned to input",
+      "default": "",
+      "description_zh": "分配给 input 的 ID",
+      "value": ""
+    },
+    "inputProps": {
+      "type": "InputHTMLAttributes<HTMLInputElement>",
+      "required": false,
+      "description": "Additional props to be forwarded to the `input` element",
+      "default": "",
+      "description_zh": "要转发到 'input' 元素的其他 props",
+      "value": ""
+    },
+    "isChecked": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the radio will be checked.\nYou'll need to pass `onChange` to update its value (since it is now controlled)",
+      "default": "",
+      "description_zh": "如果为 'true'，则将检查单选按钮。\n您需要传递 'onChange' 来更新其值（因为它现在是受控的）",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the radio will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则禁用无线电",
+      "value": ""
+    },
+    "isFocusable": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true` and `isDisabled` is true, the radio will remain\nfocusable but not interactive.",
+      "default": "",
+      "description_zh": "如果 'true' 和 'isDisabled' 为 true，则无线电将保持\n可聚焦但不是交互式的。",
+      "value": ""
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the radio button will be invalid. This also sets `aria-invalid` to `true`.",
+      "default": "",
+      "description_zh": "如果为 'true'，则单选按钮将无效。这也会将 'aria-invalid' 设置为 'true'。",
+      "value": ""
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the radio will be read-only",
+      "default": "",
+      "description_zh": "如果为 'true'，则无线电将为只读",
+      "value": ""
+    },
+    "isRequired": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the radio button will be required. This also sets `aria-required` to `true`.",
+      "default": "",
+      "description_zh": "如果为 'true'，则需要单选按钮。这也会将 'aria-required' 设置为 'true'。",
+      "value": ""
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "description": "The name of the input field in a radio\n(Useful for form submission).",
+      "default": "",
+      "description_zh": "单选按钮中输入字段的名称\n（用于表单提交）。",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(event: ChangeEvent<HTMLInputElement>) => void",
+      "required": false,
+      "description": "Function called when checked state of the `input` changes",
+      "default": "",
+      "description_zh": "当 'input' 的选中状态发生变化时调用的函数",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "md / lg / sm",
+      "required": false,
+      "description": "The size of the Radio",
+      "default": "md",
+      "description_zh": "无线电的大小",
+      "value": ""
+    },
+    "spacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "defaultValue": "0.5rem",
+      "required": false,
+      "description": "The spacing between the checkbox and its label text",
+      "default": "0.5rem",
+      "description_zh": "复选框与其标签文本之间的间距",
+      "value": ""
+    },
+    "value": {
+      "type": "string",
+      "required": false,
+      "description": "The value to be used in the radio button.\nThis is the value that will be returned on form submission.",
+      "default": "",
+      "description_zh": "要在单选按钮中使用的值。\n这是表单提交时将返回的值。",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Radio",
+      "default": "",
+      "description_zh": "收音机的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/radio.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/radio.json"
+}

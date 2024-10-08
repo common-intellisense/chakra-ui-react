@@ -1,0 +1,36 @@
+{
+  "name": "List",
+  "props": {
+    "spacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The space between each list item",
+      "default": "",
+      "description_zh": "每个列表项之间的间距",
+      "value": ""
+    },
+    "stylePosition": {
+      "type": "ResponsiveValue<ListStylePosition>",
+      "required": false,
+      "description": "Shorthand prop for `listStylePosition`",
+      "default": "",
+      "description_zh": "'listStylePosition' 的简写 prop",
+      "value": ""
+    },
+    "styleType": {
+      "type": "ResponsiveValue<ListStyleType>",
+      "required": false,
+      "description": "Shorthand prop for `listStyleType`",
+      "default": "",
+      "description_zh": "'listStyleType' 的简写 prop",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/list.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/list.json"
+}

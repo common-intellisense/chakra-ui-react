@@ -1,0 +1,20 @@
+{
+  "name": "RangeSliderThumb",
+  "props": {
+    "index": {
+      "type": "number",
+      "required": true,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/slider.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/slider.json"
+}

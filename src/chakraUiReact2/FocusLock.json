@@ -1,0 +1,81 @@
+{
+  "name": "FocusLock",
+  "props": {
+    "autoFocus": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the first focusable element within the `children`\nwill auto-focused once `FocusLock` mounts",
+      "default": "",
+      "description_zh": "如果为 'true'，则为 'children' 中的第一个可聚焦元素\n将在 'FocusLock' 挂载后自动聚焦",
+      "value": ""
+    },
+    "contentRef": {
+      "type": "RefObject<HTMLElement>",
+      "required": false,
+      "description": "The `ref` of the wrapper for which the focus-lock wraps",
+      "default": "",
+      "description_zh": "焦点锁包装的包装器的 'ref'",
+      "value": ""
+    },
+    "finalFocusRef": {
+      "type": "RefObject<FocusableElement>",
+      "required": false,
+      "description": "`ref` of the element to return focus to when `FocusLock`\nunmounts",
+      "default": "",
+      "description_zh": "当 'FocusLock' 时要将焦点返回到的元素的 'ref'\n卸载",
+      "value": ""
+    },
+    "initialFocusRef": {
+      "type": "RefObject<FocusableElement>",
+      "required": false,
+      "description": "`ref` of the element to receive focus initially",
+      "default": "",
+      "description_zh": "最初接收焦点的元素的 'ref'",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, focus trapping will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则禁用焦点捕获",
+      "value": ""
+    },
+    "lockFocusAcrossFrames": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "Enables aggressive focus capturing within iframes.\n- If `true`: keep focus in the lock, no matter where lock is active\n- If `false`:  allows focus to move outside of iframe",
+      "default": "",
+      "description_zh": "在 iframe 中启用主动焦点捕获。\n- 如果为 'true'：无论锁在哪里处于活动状态，都将焦点保持在锁中\n- 如果为“false”：允许焦点移出 iframe",
+      "value": ""
+    },
+    "persistentFocus": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, disables text selections inside, and outside focus lock",
+      "default": "",
+      "description_zh": "如果为 'true'，则禁用焦点锁定内部和外部的文本选择",
+      "value": ""
+    },
+    "restoreFocus": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, focus will be restored to the element that\ntriggered the `FocusLock` once it unmounts",
+      "default": "",
+      "description_zh": "如果为 'true'，则焦点将恢复到\n卸载后触发 'FocusLock'",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/focus-lock.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/focus-lock.json"
+}

@@ -1,0 +1,54 @@
+{
+  "name": "CheckboxGroup",
+  "props": {
+    "defaultValue": {
+      "type": "(string | number)[]",
+      "required": false,
+      "description": "The initial value of the checkbox group",
+      "default": "",
+      "description_zh": "复选框组的初始值",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, all wrapped checkbox inputs will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则所有包装的复选框输入都将被禁用",
+      "value": ""
+    },
+    "isNative": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, input elements will receive\n`checked` attribute instead of `isChecked`.\n\nThis assumes, you're using native radio inputs",
+      "default": "",
+      "description_zh": "如果为 'true'，则 input 元素将接收\n'checked' 属性而不是 'isChecked' 属性。\n\n这假设您使用的是本机无线电输入",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(value: (string | number)[]) => void",
+      "required": false,
+      "description": "The callback fired when any children Checkbox is checked or unchecked",
+      "default": "",
+      "description_zh": "选中或取消选中任何 children Checkbox 时触发的回调",
+      "value": ""
+    },
+    "value": {
+      "type": "(string | number)[]",
+      "required": false,
+      "description": "The value of the checkbox group",
+      "default": "",
+      "description_zh": "复选框组的值",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/checkbox.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/checkbox.json"
+}

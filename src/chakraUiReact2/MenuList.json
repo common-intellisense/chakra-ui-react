@@ -1,0 +1,28 @@
+{
+  "name": "MenuList",
+  "props": {
+    "motionProps": {
+      "type": "HTMLMotionProps<\"div\">",
+      "required": false,
+      "description": "The framer-motion props to animate the menu list",
+      "default": "",
+      "description_zh": "framer-motion props 为菜单列表添加动画效果",
+      "value": ""
+    },
+    "rootProps": {
+      "type": "HTMLChakraProps<\"div\">",
+      "required": false,
+      "description": "Props for the root element that positions the menu.",
+      "default": "",
+      "description_zh": "用于定位菜单的根元素的 props。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/menu.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/menu.json"
+}

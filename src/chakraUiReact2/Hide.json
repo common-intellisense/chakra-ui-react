@@ -1,0 +1,44 @@
+{
+  "name": "Hide",
+  "props": {
+    "above": {
+      "type": "string",
+      "required": false,
+      "description": "A value from the `breakpoints` section in the theme. Will render `children`\nfrom that breakpoint and above. Default breakpoint values: `sm`, `md`, `lg`, `xl`, `2xl`.",
+      "default": "",
+      "description_zh": "来自主题中 'breakpoints' 部分的值。将呈现 'children'\n从该断点及以上。默认断点值：'sm'、'md'、'lg'、'xl'、'2xl'。",
+      "value": ""
+    },
+    "below": {
+      "type": "string",
+      "required": false,
+      "description": "A value from the `breakpoints` section in the theme. Will render `children`\nfrom that breakpoint and below. Default breakpoint values: `sm`, `md`, `lg`, `xl`, `2xl`.",
+      "default": "",
+      "description_zh": "来自主题中 'breakpoints' 部分的值。将呈现 'children'\n从该断点及以下。默认断点值：'sm'、'md'、'lg'、'xl'、'2xl'。",
+      "value": ""
+    },
+    "breakpoint": {
+      "type": "string",
+      "required": false,
+      "description": "A custom css media query that determines when the `children` are rendered.\nWill render `children` if that query resolves to `true`.",
+      "default": "",
+      "description_zh": "一个自定义 css 媒体查询，用于确定何时呈现 'children'。\n如果该查询解析为 'true'，则呈现 'children'。",
+      "value": ""
+    },
+    "ssr": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/media-query.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/media-query.json"
+}

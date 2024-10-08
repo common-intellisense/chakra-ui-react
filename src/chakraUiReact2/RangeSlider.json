@@ -1,0 +1,190 @@
+{
+  "name": "RangeSlider",
+  "props": {
+    "aria-label": {
+      "type": "string[]",
+      "required": false,
+      "description": "The static string to use used for `aria-label`\nif no visible label is used.",
+      "default": "",
+      "description_zh": "用于 'aria-label' 的静态字符串\n如果未使用可见标签。",
+      "value": ""
+    },
+    "aria-labelledby": {
+      "type": "string[]",
+      "required": false,
+      "description": "The static string `aria-labelledby` that points to the\nID of the element that serves as label for the slider",
+      "default": "",
+      "description_zh": "指向\n用作滑块标签的元素的 ID",
+      "value": ""
+    },
+    "aria-valuetext": {
+      "type": "string[]",
+      "required": false,
+      "description": "The static string to use used for `aria-valuetext`",
+      "default": "",
+      "description_zh": "用于 'aria-valuetext' 的静态字符串",
+      "value": ""
+    },
+    "defaultValue": {
+      "type": "number[]",
+      "required": false,
+      "description": "The initial value of the slider in uncontrolled mode",
+      "default": "",
+      "description_zh": "非受控模式下滑块的初始值",
+      "value": ""
+    },
+    "direction": {
+      "type": "ltr / rtl",
+      "defaultValue": "ltr",
+      "required": false,
+      "description": "The writing mode",
+      "default": "ltr",
+      "description_zh": "书写模式",
+      "value": ""
+    },
+    "focusThumbOnChange": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `false`, the slider handle will not capture focus when value changes.",
+      "default": true,
+      "description_zh": "如果为 'false'，则当值更改时，滑块手柄将不会捕获焦点。",
+      "value": ""
+    },
+    "getAriaValueText": {
+      "type": "(value: number) => string",
+      "required": false,
+      "description": "Function that returns the `aria-valuetext` for screen readers.\nIt is mostly used to generate a more human-readable\nrepresentation of the value for assistive technologies",
+      "default": "",
+      "description_zh": "为屏幕阅读器返回 'aria-valuetext' 的函数。\n它主要用于生成更易读的\n辅助技术价值的表示",
+      "value": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "description": "The base `id` to use for the slider and its components",
+      "default": "",
+      "description_zh": "用于滑块及其组件的基本 'id'",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the slider will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则滑块将被禁用",
+      "value": ""
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the slider will be in `read-only` state",
+      "default": "",
+      "description_zh": "如果为 'true'，则滑块将处于 'read-only' 状态",
+      "value": ""
+    },
+    "isReversed": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the value will be incremented or decremented in reverse.",
+      "default": "",
+      "description_zh": "如果为 'true'，则该值将反向递增或递减。",
+      "value": ""
+    },
+    "max": {
+      "type": "number",
+      "defaultValue": "100",
+      "required": false,
+      "description": "The maximum allowed value of the slider. Cannot be less than min.",
+      "default": "100",
+      "description_zh": "滑块允许的最大值。不能小于 min。",
+      "value": ""
+    },
+    "min": {
+      "type": "number",
+      "defaultValue": "0",
+      "required": false,
+      "description": "The minimum allowed value of the slider. Cannot be greater than max.",
+      "default": "0",
+      "description_zh": "滑块允许的最小值。不能大于 max。",
+      "value": ""
+    },
+    "minStepsBetweenThumbs": {
+      "type": "number",
+      "defaultValue": "0",
+      "required": false,
+      "description": "The minimum distance between slider thumbs. Useful for preventing\nthe thumbs from being too close together.",
+      "default": "0",
+      "description_zh": "滑块块之间的最小距离。有助于预防\n拇指靠得太近。",
+      "value": ""
+    },
+    "name": {
+      "type": "string | string[]",
+      "required": false,
+      "description": "The name attribute of the hidden `input` field.\nThis is particularly useful in forms",
+      "default": "",
+      "description_zh": "隐藏的 'input' 字段的 name 属性。\n这在表单中特别有用",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(value: number[]) => void",
+      "required": false,
+      "description": "Function called whenever the slider value changes  (by dragging or clicking)",
+      "default": "",
+      "description_zh": "每当滑块值发生变化时调用的函数（通过拖动或单击）",
+      "value": ""
+    },
+    "onChangeEnd": {
+      "type": "(value: number[]) => void",
+      "required": false,
+      "description": "Function called when the user is done selecting a new value (by dragging or clicking)",
+      "default": "",
+      "description_zh": "当用户完成选择新值（通过拖动或单击）时调用的函数",
+      "value": ""
+    },
+    "onChangeStart": {
+      "type": "(value: number[]) => void",
+      "required": false,
+      "description": "Function called when the user starts selecting a new value (by dragging or clicking)",
+      "default": "",
+      "description_zh": "当用户开始选择新值时调用的函数（通过拖动或单击）",
+      "value": ""
+    },
+    "orientation": {
+      "type": "horizontal / vertical",
+      "defaultValue": "horizontal",
+      "required": false,
+      "description": "Orientation of the slider",
+      "default": "horizontal",
+      "description_zh": "滑块的方向",
+      "value": ""
+    },
+    "step": {
+      "type": "number",
+      "defaultValue": "1",
+      "required": false,
+      "description": "The step in which increments/decrements have to be made",
+      "default": "1",
+      "description_zh": "必须进行递增/递减的步骤",
+      "value": ""
+    },
+    "value": {
+      "type": "number[]",
+      "required": false,
+      "description": "The value of the slider in controlled mode",
+      "default": "",
+      "description_zh": "受控模式下的滑块值",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/slider.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/slider.json"
+}

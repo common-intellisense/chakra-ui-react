@@ -1,0 +1,36 @@
+{
+  "name": "ColorModeProvider",
+  "props": {
+    "colorModeManager": {
+      "type": "StorageManager",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "options": {
+      "type": "ColorModeOptions",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "value": {
+      "type": "ColorMode",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/color-mode.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/color-mode.json"
+}

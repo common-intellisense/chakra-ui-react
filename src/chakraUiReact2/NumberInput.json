@@ -1,0 +1,294 @@
+{
+  "name": "NumberInput",
+  "props": {
+    "allowMouseWheel": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the input's value will change based on mouse wheel",
+      "default": "",
+      "description_zh": "如果为 'true'，则输入的值将根据鼠标滚轮而变化",
+      "value": ""
+    },
+    "aria-describedby": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-label": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-labelledby": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "clampValueOnBlur": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "This controls the value update when you blur out of the input.\n- If `true` and the value is greater than `max`, the value will be reset to `max`\n- Else, the value remains the same.",
+      "default": true,
+      "description_zh": "这将控制当您模糊输入时的值更新。\n- 如果 'true' 且值大于 'max'，则该值将重置为 'max'\n- 否则，该值保持不变。",
+      "value": ""
+    },
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "defaultValue": {
+      "type": "string | number",
+      "required": false,
+      "description": "The initial value of the counter. Should be less than `max` and greater than `min`",
+      "default": "",
+      "description_zh": "计数器的初始值。应小于 'max' 且大于 'min'",
+      "value": ""
+    },
+    "errorBorderColor": {
+      "type": "string",
+      "required": false,
+      "description": "The border color when the input is invalid. Use color keys in `theme.colors`",
+      "default": "",
+      "description_zh": "输入无效时的边框颜色。在 'theme.colors' 中使用颜色键",
+      "value": ""
+    },
+    "focusBorderColor": {
+      "type": "string",
+      "required": false,
+      "description": "The border color when the input is focused. Use color keys in `theme.colors`",
+      "default": "",
+      "description_zh": "聚焦输入时的边框颜色。在 'theme.colors' 中使用颜色键",
+      "value": ""
+    },
+    "focusInputOnChange": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the input will be focused as you increment\nor decrement the value with the stepper",
+      "default": true,
+      "description_zh": "如果为 'true'，则输入将在您递增时聚焦\n或使用步进器递减该值",
+      "value": ""
+    },
+    "format": {
+      "type": "(value: string | number) => string | number",
+      "required": false,
+      "description": "If using a custom display format, this converts the default format to the custom format.",
+      "default": "",
+      "description_zh": "如果使用自定义显示格式，则会将默认格式转换为自定义格式。",
+      "value": ""
+    },
+    "getAriaValueText": {
+      "type": "(value: string | number) => string",
+      "required": false,
+      "description": "This is used to format the value so that screen readers\ncan speak out a more human-friendly value.\n\nIt is used to set the `aria-valuetext` property of the input",
+      "default": "",
+      "description_zh": "这用于设置值的格式，以便屏幕阅读器\n可以说出对人类更友好的价值。\n\n它用于设置输入的 'aria-valuetext' 属性",
+      "value": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "description": "The `id` to use for the number input field.",
+      "default": "",
+      "description_zh": "用于数字输入字段的 'id'。",
+      "value": ""
+    },
+    "inputMode": {
+      "type": "type ONLY_FOR_FORMAT =\n  | \"search\"\n  | \"text\"\n  | \"none\"\n  | \"tel\"\n  | \"url\"\n  | \"email\"\n  | \"numeric\"\n  | \"decimal\"",
+      "defaultValue": "decimal",
+      "required": false,
+      "description": "Hints at the type of data that might be entered by the user. It also determines\nthe type of keyboard shown to the user on mobile devices",
+      "default": "decimal",
+      "description_zh": "提示用户可能输入的数据类型。它还确定\n在移动设备上向用户显示的键盘类型",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the input should be disabled",
+      "default": "",
+      "description_zh": "是否应禁用输入",
+      "value": ""
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the input will have `aria-invalid` set to `true`",
+      "default": "",
+      "description_zh": "如果为 'true'，则输入会将 'aria-invalid' 设置为 'true'",
+      "value": ""
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the input will be in readonly mode",
+      "default": "",
+      "description_zh": "如果为 'true'，则输入将处于只读模式",
+      "value": ""
+    },
+    "isRequired": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether the input is required",
+      "default": "",
+      "description_zh": "是否需要输入",
+      "value": ""
+    },
+    "isValidCharacter": {
+      "type": "(value: string) => boolean",
+      "required": false,
+      "description": "Whether the pressed key should be allowed in the input.\nThe default behavior is to allow DOM floating point characters defined by /^[Ee0-9+\\-.]$/",
+      "default": "",
+      "description_zh": "是否应在输入中允许按下的键。\n默认行为是允许由 /^[Ee0-9+\\-.] 定义的 DOM 浮点字符。$/",
+      "value": ""
+    },
+    "keepWithinRange": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "This controls the value update behavior in general.\n\n- If `true` and you use the stepper or up/down arrow keys,\n the value will not exceed the `max` or go lower than `min`\n\n- If `false`, the value will be allowed to go out of range.",
+      "default": true,
+      "description_zh": "这通常控制值更新行为。\n\n- 如果为 'true' 并且您使用步进键或向上/向下箭头键，\n 该值不会超过 'max' 或低于 'min'\n\n- 如果为 'false'，则允许该值超出范围。",
+      "value": ""
+    },
+    "max": {
+      "type": "number",
+      "defaultValue": "Number.MAX_SAFE_INTEGER",
+      "required": false,
+      "description": "The maximum value of the counter",
+      "default": "Number.MAX_SAFE_INTEGER",
+      "description_zh": "计数器的最大值",
+      "value": ""
+    },
+    "min": {
+      "type": "number",
+      "defaultValue": "Number.MIN_SAFE_INTEGER",
+      "required": false,
+      "description": "The minimum value of the counter",
+      "default": "Number.MIN_SAFE_INTEGER",
+      "description_zh": "计数器的最小值",
+      "value": ""
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "description": "The HTML `name` attribute used for forms",
+      "default": "",
+      "description_zh": "用于表单的 HTML“name”属性",
+      "value": ""
+    },
+    "onBlur": {
+      "type": "FocusEventHandler<HTMLInputElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onChange": {
+      "type": "(valueAsString: string, valueAsNumber: number) => void",
+      "required": false,
+      "description": "The callback fired when the value changes",
+      "default": "",
+      "description_zh": "值更改时触发的回调",
+      "value": ""
+    },
+    "onFocus": {
+      "type": "FocusEventHandler<HTMLInputElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onInvalid": {
+      "type": "(\n  message: ValidityState,\n  value: string,\n  valueAsNumber: number,\n) => void",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "parse": {
+      "type": "(value: string) => string",
+      "required": false,
+      "description": "If using a custom display format, this converts the custom format to a format `parseFloat` understands.",
+      "default": "",
+      "description_zh": "如果使用自定义显示格式，这会将自定义格式转换为 'parseFloat' 可以理解的格式。",
+      "value": ""
+    },
+    "pattern": {
+      "type": "string",
+      "defaultValue": "[0-9]*(.[0-9]+)?",
+      "required": false,
+      "description": "The pattern used to check the <input> element's value against on form submission.",
+      "default": "[0-9]*(.[0-9]+)?",
+      "description_zh": "用于<input>在表单提交时检查元素值的模式。",
+      "value": ""
+    },
+    "precision": {
+      "type": "number",
+      "required": false,
+      "description": "The number of decimal points used to round the value",
+      "default": "",
+      "description_zh": "用于四舍五入值的小数位数",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "xs / sm / md / lg",
+      "required": false,
+      "description": "The size of the NumberInput",
+      "default": "md",
+      "description_zh": "NumberInput 的大小",
+      "value": ""
+    },
+    "step": {
+      "type": "number",
+      "defaultValue": "1",
+      "required": false,
+      "description": "The step used to increment or decrement the value",
+      "default": "1",
+      "description_zh": "用于递增或递减值的步骤",
+      "value": ""
+    },
+    "value": {
+      "type": "string | number",
+      "required": false,
+      "description": "The value of the counter. Should be less than `max` and greater than `min`",
+      "default": "",
+      "description_zh": "计数器的值。应小于 'max' 且大于 'min'",
+      "value": ""
+    },
+    "variant": {
+      "defaultValue": "outline",
+      "type": "outline / filled / flushed / unstyled",
+      "required": false,
+      "description": "The variant of the NumberInput",
+      "default": "outline",
+      "description_zh": "NumberInput 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/number-input.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/number-input.json"
+}

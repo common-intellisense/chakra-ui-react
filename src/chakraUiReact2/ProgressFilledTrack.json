@@ -1,0 +1,60 @@
+{
+  "name": "ProgressFilledTrack",
+  "props": {
+    "max": {
+      "type": "number",
+      "required": true,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "min": {
+      "type": "number",
+      "required": true,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "getValueText": {
+      "type": "(value: number, percent: number) => string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "isIndeterminate": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "value": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "valueText": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/progress.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/progress.json"
+}

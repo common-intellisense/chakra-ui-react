@@ -1,0 +1,54 @@
+{
+  "name": "ToastProvider",
+  "props": {
+    "component": {
+      "type": "FC<ToastComponentProps>",
+      "defaultValue": "ToastComponent",
+      "required": false,
+      "description": "Are you looking for a way to style the toast? Use a custom `Alert` variant in the theme.\nThis property overrides the default ToastComponent with your own implementation.",
+      "default": "ToastComponent",
+      "description_zh": "您在寻找一种方式来设计吐司吗？在主题中使用自定义的 'Alert' 变体。\n此属性使用您自己的实现覆盖默认的 ToastComponent。",
+      "value": ""
+    },
+    "defaultOptions": {
+      "type": "UseToastOptions",
+      "required": false,
+      "description": "Default options for `useToast(options)`",
+      "default": "",
+      "description_zh": "'useToast（options）' 的默认选项",
+      "value": ""
+    },
+    "motionVariants": {
+      "type": "Variants",
+      "required": false,
+      "description": "Customize the default motion config to animate the toasts your way",
+      "default": "",
+      "description_zh": "自定义默认动画配置以按自己的方式为 Toast 添加动画效果",
+      "value": ""
+    },
+    "portalProps": {
+      "type": "Pick<\n  PortalProps,\n  \"appendToParentPortal\" | \"containerRef\"\n>",
+      "required": false,
+      "description": "Props to be forwarded to the portal component",
+      "default": "",
+      "description_zh": "要转发到 portal 组件的 props",
+      "value": ""
+    },
+    "toastSpacing": {
+      "type": "string | number",
+      "defaultValue": "0.5rem",
+      "required": false,
+      "description": "Define the margin between toasts",
+      "default": "0.5rem",
+      "description_zh": "定义 toast 之间的边距",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/toast.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/toast.json"
+}

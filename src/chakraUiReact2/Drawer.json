@@ -1,0 +1,216 @@
+{
+  "name": "Drawer",
+  "props": {
+    "isOpen": {
+      "type": "boolean",
+      "required": true,
+      "description": "If `true`, the modal will be open.",
+      "default": "",
+      "description_zh": "如果为 'true'，则模态框将打开。",
+      "value": ""
+    },
+    "onClose": {
+      "type": "() => void",
+      "required": true,
+      "description": "Callback invoked to close the modal.",
+      "default": "",
+      "description_zh": "调用 Callback 以关闭 modal。",
+      "value": ""
+    },
+    "allowPinchZoom": {
+      "type": "boolean",
+      "defaultValue": "false.",
+      "required": false,
+      "description": "Handle zoom/pinch gestures on iOS devices when scroll locking is enabled.",
+      "default": "false.",
+      "description_zh": "启用滚动锁定后，在 iOS 设备上处理缩放/捏合手势。",
+      "value": ""
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the modal will autofocus the first enabled and interactive\nelement within the `ModalContent`",
+      "default": true,
+      "description_zh": "如果为 'true'，则模态框将自动聚焦第一个启用的交互式\n元素",
+      "value": ""
+    },
+    "blockScrollOnMount": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, scrolling will be disabled on the `body` when the modal opens.",
+      "default": true,
+      "description_zh": "如果为 'true'，则当模态框打开时，将在 'body' 上禁用滚动。",
+      "value": ""
+    },
+    "closeOnEsc": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the modal will close when the `Esc` key is pressed",
+      "default": true,
+      "description_zh": "如果为 'true'，则当按下 'Esc' 键时，模态框将关闭",
+      "value": ""
+    },
+    "closeOnOverlayClick": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the modal will close when the overlay is clicked",
+      "default": true,
+      "description_zh": "如果为“true”，则单击叠加层时，模态框将关闭",
+      "value": ""
+    },
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "finalFocusRef": {
+      "type": "RefObject<FocusableElement>",
+      "required": false,
+      "description": "The `ref` of element to receive focus when the modal closes.",
+      "default": "",
+      "description_zh": "当模态关闭时接收焦点的元素的 'ref'。",
+      "value": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "description": "The `id` of the modal",
+      "default": "",
+      "description_zh": "模态框的 'id'",
+      "value": ""
+    },
+    "initialFocusRef": {
+      "type": "RefObject<FocusableElement>",
+      "required": false,
+      "description": "The `ref` of element to receive focus when the modal opens.",
+      "default": "",
+      "description_zh": "当模态打开时接收焦点的元素的 'ref'。",
+      "value": ""
+    },
+    "isFullHeight": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true` and drawer's placement is `top` or `bottom`,\nthe drawer will occupy the viewport height (100vh)",
+      "default": "",
+      "description_zh": "如果 'true' 且抽屉的位置为 'top' 或 'bottom'，\n抽屉将占用视区高度 （100vH）",
+      "value": ""
+    },
+    "lockFocusAcrossFrames": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "Enables aggressive focus capturing within iframes.\n- If `true`: keep focus in the lock, no matter where lock is active\n- If `false`:  allows focus to move outside of iframe",
+      "default": "",
+      "description_zh": "在 iframe 中启用主动焦点捕获。\n- 如果为 'true'：无论锁在哪里处于活动状态，都将焦点保持在锁中\n- 如果为“false”：允许焦点移出 iframe",
+      "value": ""
+    },
+    "onCloseComplete": {
+      "type": "() => void",
+      "required": false,
+      "description": "Fires when all exiting nodes have completed animating out",
+      "default": "",
+      "description_zh": "当所有退出节点都已完成动画时触发",
+      "value": ""
+    },
+    "onEsc": {
+      "type": "() => void",
+      "required": false,
+      "description": "Callback fired when the escape key is pressed and focus is within modal",
+      "default": "",
+      "description_zh": "当按下 Esc 键且焦点位于模态框内时触发回调",
+      "value": ""
+    },
+    "onOverlayClick": {
+      "type": "() => void",
+      "required": false,
+      "description": "Callback fired when the overlay is clicked.",
+      "default": "",
+      "description_zh": "单击叠加层时触发的回调。",
+      "value": ""
+    },
+    "placement": {
+      "type": "SlideDirection | LogicalPlacement",
+      "defaultValue": "right",
+      "required": false,
+      "description": "The placement of the drawer",
+      "default": "right",
+      "description_zh": "抽屉的位置",
+      "value": ""
+    },
+    "portalProps": {
+      "type": "Pick<\n  PortalProps,\n  \"appendToParentPortal\" | \"containerRef\"\n>",
+      "required": false,
+      "description": "Props to be forwarded to the portal component",
+      "default": "",
+      "description_zh": "要转发到 portal 组件的 props",
+      "value": ""
+    },
+    "preserveScrollBarGap": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, a `padding-right` will be applied to the body element\nthat's equal to the width of the scrollbar.\n\nThis can help prevent some unpleasant flickering effect\nand content adjustment when the modal opens",
+      "default": true,
+      "description_zh": "如果为 'true'，则 'padding-right' 将应用于 body 元素\n这等于 ScrollBar 的宽度。\n\n这有助于防止一些令人不快的闪烁效果\n和内容调整（当模态框打开时）",
+      "value": ""
+    },
+    "returnFocusOnClose": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the modal will return focus to the element that triggered it when it closes.",
+      "default": true,
+      "description_zh": "如果为 'true'，则模态框将在关闭时将焦点返回到触发它的元素。",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "xs",
+      "type": "xs / sm / md / lg / xl / full",
+      "required": false,
+      "description": "The size of the Drawer",
+      "default": "xs",
+      "description_zh": "抽屉的大小",
+      "value": ""
+    },
+    "trapFocus": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `false`, focus lock will be disabled completely.\n\nThis is useful in situations where you still need to interact with\nother surrounding elements.\n\n🚨Warning: We don't recommend doing this because it hurts the\naccessibility of the modal, based on WAI-ARIA specifications.",
+      "default": true,
+      "description_zh": "如果为 'false'，则焦点锁定将完全禁用。\n\n这在您仍然需要与\n其他周围元素。\n\n🚨警告： 我们不建议这样做，因为它会伤害\n基于 WAI-ARIA 规范的模态可访问性。",
+      "value": ""
+    },
+    "useInert": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "A11y: If `true`, the siblings of the `modal` will have `aria-hidden`\nset to `true` so that screen readers can only see the `modal`.\n\nThis is commonly known as making the other elements **inert**",
+      "default": true,
+      "description_zh": "A11y： 如果为 'true'，则 'modal' 的兄弟姐妹将具有 'aria-hidden'\n设置为 'true'，以便屏幕阅读器只能看到 'modal'。\n\n这通常被称为使其他元素 **惰性**",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Drawer",
+      "default": "",
+      "description_zh": "Drawer 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/modal.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/modal.json"
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Card",
+  "props": {
+    "align": {
+      "type": "ResponsiveValue<AlignItems>",
+      "required": false,
+      "description": "The flex alignment of the card",
+      "default": "",
+      "description_zh": "卡的弯曲对齐方式",
+      "value": ""
+    },
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "direction": {
+      "type": "ResponsiveValue<FlexDirection>",
+      "required": false,
+      "description": "The flex direction of the card",
+      "default": "",
+      "description_zh": "卡的弯曲方向",
+      "value": ""
+    },
+    "justify": {
+      "type": "ResponsiveValue<JustifyContent>",
+      "required": false,
+      "description": "The flex distribution of the card",
+      "default": "",
+      "description_zh": "卡的 flex 分布",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "sm / md / lg",
+      "required": false,
+      "description": "The size of the Card",
+      "default": "md",
+      "description_zh": "Card 的大小",
+      "value": ""
+    },
+    "variant": {
+      "defaultValue": "elevated",
+      "type": "elevated / outline / filled / unstyled",
+      "required": false,
+      "description": "The variant of the Card",
+      "default": "elevated",
+      "description_zh": "Card 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/card.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/card.json"
+}

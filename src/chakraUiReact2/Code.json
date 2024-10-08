@@ -1,0 +1,38 @@
+{
+  "name": "Code",
+  "props": {
+    "colorScheme": {
+      "defaultValue": "gray",
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "gray",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "size": {
+      "type": "string",
+      "required": false,
+      "description": "The size of the Code",
+      "default": "",
+      "description_zh": "代码的大小",
+      "value": ""
+    },
+    "variant": {
+      "defaultValue": "subtle",
+      "type": "solid / subtle / outline",
+      "required": false,
+      "description": "The variant of the Code",
+      "default": "subtle",
+      "description_zh": "代码的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/code.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/code.json"
+}

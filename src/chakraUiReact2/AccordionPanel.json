@@ -1,0 +1,20 @@
+{
+  "name": "AccordionPanel",
+  "props": {
+    "motionProps": {
+      "type": "CollapseProps",
+      "required": false,
+      "description": "The properties passed to the underlying `Collapse` component.",
+      "default": "",
+      "description_zh": "传递给底层 'Collapse' 组件的属性。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/accordion.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/accordion.json"
+}

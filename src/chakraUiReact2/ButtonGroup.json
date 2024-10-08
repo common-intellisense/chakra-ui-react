@@ -1,0 +1,39 @@
+{
+  "name": "ButtonGroup",
+  "props": {
+    "isAttached": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the borderRadius of button that are direct children will be altered\nto look flushed together",
+      "default": "",
+      "description_zh": "如果为 'true'，则直接子按钮的 borderRadius 将被更改\n看起来一起脸红",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, all wrapped button will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则所有包装的按钮都将被禁用",
+      "value": ""
+    },
+    "spacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "defaultValue": "'0.5rem'",
+      "required": false,
+      "description": "The spacing between the buttons",
+      "default": "'0.5rem'",
+      "description_zh": "按钮之间的间距",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/button.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/button.json"
+}

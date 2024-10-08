@@ -1,0 +1,21 @@
+{
+  "name": "ModalCloseButton",
+  "props": {
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the close button will be disabled.",
+      "default": "",
+      "description_zh": "如果为 'true'，则关闭按钮将被禁用。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/modal.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/modal.json"
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Spinner",
+  "props": {
+    "color": {
+      "type": "string",
+      "required": false,
+      "description": "The color of the spinner",
+      "default": "",
+      "description_zh": "微调器的颜色",
+      "value": ""
+    },
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "emptyColor": {
+      "type": "string",
+      "defaultValue": "transparent",
+      "required": false,
+      "description": "The color of the empty area in the spinner",
+      "default": "transparent",
+      "description_zh": "微调器中空白区域的颜色",
+      "value": ""
+    },
+    "label": {
+      "type": "string",
+      "defaultValue": "Loading...",
+      "required": false,
+      "description": "For accessibility, it is important to add a fallback loading text.\nThis text will be visible to screen readers.",
+      "default": "Loading...",
+      "description_zh": "对于辅助功能，添加回退加载文本非常重要。\n此文本将对屏幕阅读器可见。",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "xs / sm / md / lg / xl",
+      "required": false,
+      "description": "The size of the Spinner",
+      "default": "md",
+      "description_zh": "微调器的大小",
+      "value": ""
+    },
+    "speed": {
+      "type": "string",
+      "defaultValue": "0.45s",
+      "required": false,
+      "description": "The speed of the spinner.",
+      "default": "0.45s",
+      "description_zh": "微调器的速度。",
+      "value": ""
+    },
+    "thickness": {
+      "type": "string",
+      "defaultValue": "2px",
+      "required": false,
+      "description": "The thickness of the spinner",
+      "default": "2px",
+      "description_zh": "微调器的厚度",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Spinner",
+      "default": "",
+      "description_zh": "微调器的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/spinner.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/spinner.json"
+}

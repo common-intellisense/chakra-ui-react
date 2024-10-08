@@ -1,0 +1,28 @@
+{
+  "name": "TabList",
+  "props": {
+    "onKeyDown": {
+      "type": "KeyboardEventHandler<Element>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "ref": {
+      "type": "((instance: any) => void) | RefObject<any>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/tabs.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/tabs.json"
+}

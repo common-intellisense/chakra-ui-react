@@ -1,0 +1,68 @@
+{
+  "name": "GridItem",
+  "props": {
+    "area": {
+      "type": "ResponsiveValue<GridArea>",
+      "required": false,
+      "description": "Shorthand prop for `gridArea`",
+      "default": "",
+      "description_zh": "'gridArea' 的简写 prop",
+      "value": ""
+    },
+    "colEnd": {
+      "type": "ResponsiveValue<number | \"auto\">",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "colSpan": {
+      "type": "ResponsiveValue<number | \"auto\">",
+      "required": false,
+      "description": "The number of columns the grid item should `span`.",
+      "default": "",
+      "description_zh": "网格项应 'span' 的列数。",
+      "value": ""
+    },
+    "colStart": {
+      "type": "ResponsiveValue<number | \"auto\">",
+      "required": false,
+      "description": "The column number the grid item should start.",
+      "default": "",
+      "description_zh": "网格项应开始的列号。",
+      "value": ""
+    },
+    "rowEnd": {
+      "type": "ResponsiveValue<number | \"auto\">",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "rowSpan": {
+      "type": "ResponsiveValue<number | \"auto\">",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "rowStart": {
+      "type": "ResponsiveValue<number | \"auto\">",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/grid.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/grid.json"
+}

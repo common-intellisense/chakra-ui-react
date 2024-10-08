@@ -1,0 +1,68 @@
+{
+  "name": "MenuItem",
+  "props": {
+    "closeOnSelect": {
+      "type": "boolean",
+      "required": false,
+      "description": "Overrides the parent menu's `closeOnSelect` prop.",
+      "default": "",
+      "description_zh": "覆盖父菜单的 'closeOnSelect' 属性。",
+      "value": ""
+    },
+    "command": {
+      "type": "string",
+      "required": false,
+      "description": "Right-aligned label text content, useful for displaying hotkeys.",
+      "default": "",
+      "description_zh": "右对齐的标签文本内容，可用于显示热键。",
+      "value": ""
+    },
+    "commandSpacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The spacing between the command and menu item's label.",
+      "default": "",
+      "description_zh": "命令和菜单项标签之间的间距。",
+      "value": ""
+    },
+    "icon": {
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>",
+      "required": false,
+      "description": "The icon to render before the menu item's label.",
+      "default": "",
+      "description_zh": "要在菜单项标签之前呈现的图标。",
+      "value": ""
+    },
+    "iconSpacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The spacing between the icon and menu item's label.",
+      "default": "",
+      "description_zh": "图标和菜单项标签之间的间距。",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the menuitem will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则 menuitem 将被禁用",
+      "value": ""
+    },
+    "isFocusable": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true` and the menuitem is disabled, it'll\nremain keyboard-focusable",
+      "default": "",
+      "description_zh": "如果 'true' 且 menuitem 被禁用，它将\n保持键盘聚焦",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/menu.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/menu.json"
+}

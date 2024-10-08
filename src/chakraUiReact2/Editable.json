@@ -1,0 +1,127 @@
+{
+  "name": "Editable",
+  "props": {
+    "defaultValue": {
+      "type": "string",
+      "required": false,
+      "description": "The initial value of the Editable in both edit & preview mode",
+      "default": "",
+      "description_zh": "在编辑和预览模式下可编辑的初始值",
+      "value": ""
+    },
+    "finalFocusRef": {
+      "type": "RefObject<FocusableElement>",
+      "required": false,
+      "description": "The `ref` of element to receive focus when the modal closes.",
+      "default": "",
+      "description_zh": "当模态关闭时接收焦点的元素的 'ref'。",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the Editable will be disabled.",
+      "default": "",
+      "description_zh": "如果为 'true'，则 Editable 将被禁用。",
+      "value": ""
+    },
+    "isPreviewFocusable": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the read only view, has a `tabIndex` set to `0`\nso it can receive focus via the keyboard or click.",
+      "default": true,
+      "description_zh": "如果只读视图为 'true'，则 'tabIndex' 设置为 '0'\n，因此它可以通过键盘或单击来接收焦点。",
+      "value": ""
+    },
+    "onBlur": {
+      "type": "(nextValue: string) => void",
+      "required": false,
+      "description": "Callback invoked when the user either submits or cancels.\nIt provides the last confirmed value as argument.",
+      "default": "",
+      "description_zh": "当用户提交或取消时调用的回调。\n它提供最后确认的值作为参数。",
+      "value": ""
+    },
+    "onCancel": {
+      "type": "(previousValue: string) => void",
+      "required": false,
+      "description": "Callback invoked when user cancels input with the `Esc` key.\nIt provides the last confirmed value as argument.",
+      "default": "",
+      "description_zh": "当用户使用 Esc 键取消输入时调用回调。\n它提供最后确认的值作为参数。",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(nextValue: string) => void",
+      "required": false,
+      "description": "Callback invoked when user changes input.",
+      "default": "",
+      "description_zh": "当用户更改输入时调用回调。",
+      "value": ""
+    },
+    "onEdit": {
+      "type": "() => void",
+      "required": false,
+      "description": "Callback invoked once the user enters edit mode.",
+      "default": "",
+      "description_zh": "用户进入编辑模式后调用回调。",
+      "value": ""
+    },
+    "onSubmit": {
+      "type": "(nextValue: string) => void",
+      "required": false,
+      "description": "Callback invoked when user confirms value with `enter` key or by blurring input.",
+      "default": "",
+      "description_zh": "当用户使用 'enter' 键或通过模糊输入确认值时调用回调。",
+      "value": ""
+    },
+    "placeholder": {
+      "type": "string",
+      "required": false,
+      "description": "The placeholder text when the value is empty.",
+      "default": "",
+      "description_zh": "值为空时的占位符文本。",
+      "value": ""
+    },
+    "selectAllOnFocus": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the input's text will be highlighted on focus.",
+      "default": true,
+      "description_zh": "如果为 'true'，则输入的文本将在焦点时突出显示。",
+      "value": ""
+    },
+    "startWithEditView": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the Editable will start with edit mode by default.",
+      "default": "",
+      "description_zh": "如果为 'true'，则 Editable 将默认以 edit 模式启动。",
+      "value": ""
+    },
+    "submitOnBlur": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, it'll update the value onBlur and turn off the edit mode.",
+      "default": true,
+      "description_zh": "如果为 'true'，它将更新值 onBlur 并关闭编辑模式。",
+      "value": ""
+    },
+    "value": {
+      "type": "string",
+      "required": false,
+      "description": "The value of the Editable in both edit & preview mode",
+      "default": "",
+      "description_zh": "在编辑和预览模式下的可编辑值",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/editable.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/editable.json"
+}

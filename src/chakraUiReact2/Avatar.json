@@ -1,0 +1,135 @@
+{
+  "name": "Avatar",
+  "props": {
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "crossOrigin": {
+      "type": " / anonymous / use-credentials",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "getInitials": {
+      "type": "(name: string) => string",
+      "required": false,
+      "description": "Function to get the initials to display",
+      "default": "",
+      "description_zh": "获取要显示的首字母的函数",
+      "value": ""
+    },
+    "icon": {
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>",
+      "required": false,
+      "description": "The default avatar used as fallback when `name`, and `src`\nis not specified.",
+      "default": "",
+      "description_zh": "当 'name' 和 'src' 时用作后备的默认头像\n未指定。",
+      "value": ""
+    },
+    "iconLabel": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "ignoreFallback": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, opt out of the avatar's `fallback` logic and\nrenders the `img` at all times.",
+      "default": "",
+      "description_zh": "如果为“true”，则选择退出头像的“fallback”逻辑，并且\n始终呈现 'img'。",
+      "value": ""
+    },
+    "loading": {
+      "type": "eager / lazy",
+      "required": false,
+      "description": "Defines loading strategy",
+      "default": "",
+      "description_zh": "定义加载策略",
+      "value": ""
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "description": "The name of the person in the avatar.\n\n- if `src` has loaded, the name will be used as the `alt` attribute of the `img`\n- If `src` is not loaded, the name will be used to create the initials",
+      "default": "",
+      "description_zh": "头像中人员的姓名。\n\n- 如果 'src' 已加载，则名称将用作 'img' 的 'alt' 属性\n- 如果未加载 'src'，则名称将用于创建首字母缩写",
+      "value": ""
+    },
+    "onError": {
+      "type": "() => void",
+      "required": false,
+      "description": "Function called when image failed to load",
+      "default": "",
+      "description_zh": "图像加载失败时调用的函数",
+      "value": ""
+    },
+    "referrerPolicy": {
+      "type": "HTMLAttributeReferrerPolicy",
+      "required": false,
+      "description": "Defining which referrer is sent when fetching the resource.",
+      "default": "",
+      "description_zh": "定义在获取资源时发送哪个反向链接。",
+      "value": ""
+    },
+    "showBorder": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the `Avatar` will show a border around it.\n\nBest for a group of avatars",
+      "default": "",
+      "description_zh": "如果为 'true'，则 'Avatar' 将在其周围显示边框。\n\n最适合一组头像",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "2xs / xs / sm / md / lg / xl / 2xl / full",
+      "required": false,
+      "description": "The size of the Avatar",
+      "default": "md",
+      "description_zh": "Avatar 的大小",
+      "value": ""
+    },
+    "src": {
+      "type": "string",
+      "required": false,
+      "description": "The image url of the `Avatar`",
+      "default": "",
+      "description_zh": "“Avatar”的图像 URL",
+      "value": ""
+    },
+    "srcSet": {
+      "type": "string",
+      "required": false,
+      "description": "List of sources to use for different screen resolutions",
+      "default": "",
+      "description_zh": "用于不同屏幕分辨率的源列表",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Avatar",
+      "default": "",
+      "description_zh": "Avatar 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/avatar.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/avatar.json"
+}

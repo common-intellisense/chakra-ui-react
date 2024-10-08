@@ -1,0 +1,63 @@
+{
+  "name": "Stepper",
+  "props": {
+    "index": {
+      "type": "number",
+      "required": true,
+      "description": "The active step index",
+      "default": "",
+      "description_zh": "活动步骤索引",
+      "value": ""
+    },
+    "colorScheme": {
+      "defaultValue": "blue",
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "blue",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "orientation": {
+      "type": "Orientation",
+      "defaultValue": "horizontal",
+      "required": false,
+      "description": "The orientation of the stepper",
+      "default": "horizontal",
+      "description_zh": "步进器的方向",
+      "value": ""
+    },
+    "showLastSeparator": {
+      "type": "boolean",
+      "required": false,
+      "description": "Whether to show or not the last separator while in vertical orientation",
+      "default": "",
+      "description_zh": "是否在垂直方向上显示最后一个分隔符",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "xs / sm / md / lg",
+      "required": false,
+      "description": "The size of the Stepper",
+      "default": "md",
+      "description_zh": "步进电机的尺寸",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Stepper",
+      "default": "",
+      "description_zh": "Stepper 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/stepper.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/stepper.json"
+}

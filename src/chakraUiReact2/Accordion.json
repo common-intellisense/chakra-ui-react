@@ -1,0 +1,63 @@
+{
+  "name": "Accordion",
+  "props": {
+    "allowMultiple": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, multiple accordion items can be expanded at once.",
+      "default": "",
+      "description_zh": "如果为 'true'，则可以一次扩展多个折叠项。",
+      "value": ""
+    },
+    "allowToggle": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, any expanded accordion item can be collapsed again.",
+      "default": "",
+      "description_zh": "如果为“true”，则可以再次折叠任何展开的折叠项。",
+      "value": ""
+    },
+    "defaultIndex": {
+      "type": "ExpandedIndex",
+      "required": false,
+      "description": "The initial index(es) of the expanded accordion item",
+      "default": "",
+      "description_zh": "展开的折叠项的初始索引",
+      "value": ""
+    },
+    "index": {
+      "type": "ExpandedIndex",
+      "required": false,
+      "description": "The index(es) of the expanded accordion item",
+      "default": "",
+      "description_zh": "展开的折叠项的索引",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(expandedIndex: ExpandedIndex) => void",
+      "required": false,
+      "description": "The callback invoked when accordion items are expanded or collapsed.",
+      "default": "",
+      "description_zh": "展开或折叠项时调用的回调。",
+      "value": ""
+    },
+    "reduceMotion": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, height animation and transitions will be disabled.",
+      "default": "",
+      "description_zh": "如果为 'true'，则高度动画和过渡将被禁用。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/accordion.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/accordion.json"
+}

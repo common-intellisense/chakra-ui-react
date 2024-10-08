@@ -1,0 +1,100 @@
+{
+  "name": "ControlBox",
+  "props": {
+    "_checked": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_checkedAndChild": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_checkedAndDisabled": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_checkedAndFocus": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_checkedAndHover": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_child": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_disabled": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_focus": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_hover": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "_invalid": {
+      "type": "SystemStyleObject",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "type": {
+      "type": "checkbox / radio",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/control-box.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/control-box.json"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "CSSReset",
+  "props": {
+    "scope": {
+      "type": "string",
+      "required": false,
+      "description": "The selector to scope the css reset styles to.",
+      "default": "",
+      "description_zh": "将 css reset 样式限定为的选择器。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/css-reset.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/css-reset.json"
+}

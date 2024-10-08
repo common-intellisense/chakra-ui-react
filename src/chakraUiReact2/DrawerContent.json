@@ -1,0 +1,28 @@
+{
+  "name": "DrawerContent",
+  "props": {
+    "containerProps": {
+      "type": "HTMLChakraProps<\"div\">",
+      "required": false,
+      "description": "The props to forward to the modal's content wrapper",
+      "default": "",
+      "description_zh": "要转发到模态框内容包装器的 props",
+      "value": ""
+    },
+    "motionProps": {
+      "type": "HTMLMotionProps<\"section\">",
+      "required": false,
+      "description": "The custom framer-motion transition to use for the modal",
+      "default": "",
+      "description_zh": "用于模态的自定义 framer-motion 过渡",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/modal.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/modal.json"
+}

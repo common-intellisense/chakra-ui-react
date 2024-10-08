@@ -1,0 +1,74 @@
+{
+  "name": "Select",
+  "props": {
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the form control will be disabled. This has 2 side effects:\n- The `FormLabel` will have `data-disabled` attribute\n- The form element (e.g, Input) will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则表单控件将被禁用。这有 2 个副作用：\n- 'FormLabel' 将具有 'data-disabled' 属性\n- 表单元素（例如 Input）将被禁用",
+      "value": ""
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the form control will be invalid. This has 2 side effects:\n- The `FormLabel` and `FormErrorIcon` will have `data-invalid` set to `true`\n- The form element (e.g, Input) will have `aria-invalid` set to `true`",
+      "default": "",
+      "description_zh": "如果为 'true'，则表单控件将无效。这有 2 个副作用：\n- “FormLabel”和“FormErrorIcon”会将“data-invalid”设置为“true”\n- 表单元素（例如 Input）会将 'aria-invalid' 设置为 'true'",
+      "value": ""
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the form control will be readonly",
+      "default": "",
+      "description_zh": "如果为 'true'，则表单控件将为只读",
+      "value": ""
+    },
+    "isRequired": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the form control will be required. This has 2 side effects:\n- The `FormLabel` will show a required indicator\n- The form element (e.g, Input) will have `aria-required` set to `true`",
+      "default": "",
+      "description_zh": "如果为 'true'，则需要表单控件。这有 2 个副作用：\n- 'FormLabel' 将显示一个必需的指示符\n- 表单元素（例如，Input）会将 'aria-required' 设置为 'true'",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "lg / md / sm / xs",
+      "required": false,
+      "description": "The size of the Select",
+      "default": "md",
+      "description_zh": "Select 的大小",
+      "value": ""
+    },
+    "variant": {
+      "defaultValue": "outline",
+      "type": "outline / filled / flushed / unstyled",
+      "required": false,
+      "description": "The variant of the Select",
+      "default": "outline",
+      "description_zh": "Select 的",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/select.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/select.json"
+}

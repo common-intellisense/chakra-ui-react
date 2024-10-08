@@ -1,0 +1,20 @@
+{
+  "name": "PopoverArrow",
+  "props": {
+    "shadowColor": {
+      "type": "ResponsiveValue<string | (string & {})>",
+      "required": false,
+      "description": "The color of the arrow's shadow",
+      "default": "",
+      "description_zh": "箭头阴影的颜色",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/popover.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/popover.json"
+}

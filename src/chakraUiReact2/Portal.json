@@ -1,0 +1,29 @@
+{
+  "name": "Portal",
+  "props": {
+    "appendToParentPortal": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, the portal will check if it is within a parent portal\nand append itself to the parent's portal node.\nThis provides nesting for portals.\n\nIf `false`, the portal will always append to `document.body`\nregardless of nesting. It is used to opt out of portal nesting.",
+      "default": true,
+      "description_zh": "如果为 'true'，则门户将检查它是否位于父门户内\n并将自身附加到父级的 Portal 节点。\n这为 Portal 提供了嵌套。\n\n如果为 'false'，则门户将始终附加到 'document.body'\n无论嵌套如何。它用于选择退出门户嵌套。",
+      "value": ""
+    },
+    "containerRef": {
+      "type": "RefObject<HTMLElement | null>",
+      "required": false,
+      "description": "The `ref` to the component where the portal will be attached to.",
+      "default": "",
+      "description_zh": "Portal 将附加到的组件的 'ref'。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/portal.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/portal.json"
+}

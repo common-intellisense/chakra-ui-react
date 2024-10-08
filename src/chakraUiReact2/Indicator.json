@@ -1,0 +1,45 @@
+{
+  "name": "Indicator",
+  "props": {
+    "offset": {
+      "type": "string | number | boolean | (string & {}) | ResponsiveArray<string | number | (string & {})> | Partial<Record<string, string | number | (string & {})>> | ResponsiveArray<...> | Partial<...> | ((theme: Record<...>) => ResponsiveValue<...>)",
+      "required": false,
+      "description": "The x and y offset of the indicator",
+      "default": "",
+      "description_zh": "指标的 x 和 y 偏移量",
+      "value": ""
+    },
+    "offsetX": {
+      "type": "string | number | boolean | (string & {}) | ResponsiveArray<string | number | (string & {})> | Partial<Record<string, string | number | (string & {})>> | ResponsiveArray<...> | Partial<...> | ((theme: Record<...>) => ResponsiveValue<...>)",
+      "required": false,
+      "description": "The x offset of the indicator",
+      "default": "",
+      "description_zh": "指标的 x 偏移量",
+      "value": ""
+    },
+    "offsetY": {
+      "type": "string | number | boolean | (string & {}) | ResponsiveArray<string | number | (string & {})> | Partial<Record<string, string | number | (string & {})>> | ResponsiveArray<...> | Partial<...> | ((theme: Record<...>) => ResponsiveValue<...>)",
+      "required": false,
+      "description": "The y offset of the indicator",
+      "default": "",
+      "description_zh": "指标的 y 偏移量",
+      "value": ""
+    },
+    "placement": {
+      "type": "ResponsiveValue<\n  | \"bottom-end\"\n  | \"bottom-start\"\n  | \"top-end\"\n  | \"top-start\"\n  | \"bottom-center\"\n  | \"top-center\"\n  | \"middle-center\"\n  | \"middle-end\"\n  | \"middle-start\"\n>",
+      "defaultValue": "top-end",
+      "required": false,
+      "description": "The placement of the indicator",
+      "default": "top-end",
+      "description_zh": "指标的位置",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/indicator.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/indicator.json"
+}

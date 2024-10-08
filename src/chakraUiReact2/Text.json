@@ -1,0 +1,36 @@
+{
+  "name": "Text",
+  "props": {
+    "align": {
+      "type": "ResponsiveValue<TextAlign>",
+      "required": false,
+      "description": "The CSS `text-align` property",
+      "default": "",
+      "description_zh": "CSS 的 'text-align' 属性",
+      "value": ""
+    },
+    "casing": {
+      "type": "ResponsiveValue<TextTransform>",
+      "required": false,
+      "description": "The CSS `text-transform` property",
+      "default": "",
+      "description_zh": "CSS 的 'text-transform' 属性",
+      "value": ""
+    },
+    "decoration": {
+      "type": "ResponsiveValue<number | \"blink\" | (string & {}) | \"-moz-initial\" | \"inherit\" | \"initial\" | \"revert\" | \"revert-layer\" | \"unset\" | \"aliceblue\" | \"antiquewhite\" | \"aqua\" | \"aquamarine\" | \"azure\" | ... 185 more ... | \"wavy\">",
+      "required": false,
+      "description": "The CSS `text-decoration` property",
+      "default": "",
+      "description_zh": "CSS 的 'text-decoration' 属性",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/typography.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/typography.json"
+}

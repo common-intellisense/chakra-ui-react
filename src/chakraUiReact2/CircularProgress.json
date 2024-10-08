@@ -1,0 +1,105 @@
+{
+  "name": "CircularProgress",
+  "props": {
+    "capIsRound": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the cap of the progress indicator will be rounded.",
+      "default": "",
+      "description_zh": "如果为 'true'，则进度指示器的上限将被舍入。",
+      "value": ""
+    },
+    "color": {
+      "type": "string",
+      "required": false,
+      "description": "The color of the progress indicator. Use a color key in the theme object",
+      "default": "",
+      "description_zh": "进度指示器的颜色。在 theme 对象中使用颜色键",
+      "value": ""
+    },
+    "getValueText": {
+      "type": "(value: number, percent: number) => string",
+      "required": false,
+      "description": "A function that returns the desired valueText to use in place of the value",
+      "default": "",
+      "description_zh": "返回所需 valueText 以代替值的函数",
+      "value": ""
+    },
+    "isIndeterminate": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the progress will be indeterminate and the `value`\nprop will be ignored",
+      "default": "",
+      "description_zh": "如果为 'true'，则进度将是不确定的，并且 'value'\nprop 将被忽略",
+      "value": ""
+    },
+    "max": {
+      "type": "number",
+      "defaultValue": "100",
+      "required": false,
+      "description": "Maximum value defining 100% progress made (must be higher than 'min')",
+      "default": "100",
+      "description_zh": "定义 100% 进度的最大值（必须高于 'min'）",
+      "value": ""
+    },
+    "min": {
+      "type": "number",
+      "defaultValue": "0",
+      "required": false,
+      "description": "Minimum value defining 'no progress' (must be lower than 'max')",
+      "default": "0",
+      "description_zh": "定义 'no progress' 的最小值（必须小于 'max'）",
+      "value": ""
+    },
+    "size": {
+      "type": "string | number",
+      "required": false,
+      "description": "The size of the circular progress in CSS units",
+      "default": "",
+      "description_zh": "以 CSS 单位为单位的循环进度大小",
+      "value": ""
+    },
+    "thickness": {
+      "type": "string | number",
+      "defaultValue": "10px",
+      "required": false,
+      "description": "This defines the stroke width of the svg circle.",
+      "default": "10px",
+      "description_zh": "这定义了 svg 圆的描边宽度。",
+      "value": ""
+    },
+    "trackColor": {
+      "type": "string",
+      "required": false,
+      "description": "The color name of the progress track. Use a color key in the theme object",
+      "default": "",
+      "description_zh": "进度轨道的颜色名称。在 theme 对象中使用颜色键",
+      "value": ""
+    },
+    "value": {
+      "type": "number",
+      "required": false,
+      "description": "Current progress (must be between min/max)",
+      "default": "",
+      "description_zh": "当前进度（必须介于最小值/最大值之间）",
+      "value": ""
+    },
+    "valueText": {
+      "type": "string",
+      "required": false,
+      "description": "The desired valueText to use in place of the value",
+      "default": "",
+      "description_zh": "用于代替值的所需 valueText",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/progress.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/progress.json"
+}

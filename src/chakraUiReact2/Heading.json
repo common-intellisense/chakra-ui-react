@@ -1,0 +1,37 @@
+{
+  "name": "Heading",
+  "props": {
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "xl",
+      "type": "4xl / 3xl / 2xl / xl / lg / md / sm / xs",
+      "required": false,
+      "description": "The size of the Heading",
+      "default": "xl",
+      "description_zh": "标题的大小",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Heading",
+      "default": "",
+      "description_zh": "标题",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/typography.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/typography.json"
+}

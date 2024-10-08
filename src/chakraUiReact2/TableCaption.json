@@ -1,0 +1,21 @@
+{
+  "name": "TableCaption",
+  "props": {
+    "placement": {
+      "type": "bottom / top",
+      "defaultValue": "bottom",
+      "required": false,
+      "description": "The placement of the table caption. This sets the `caption-side` CSS attribute.",
+      "default": "bottom",
+      "description_zh": "表格标题的位置。这将设置 'caption-side' CSS 属性。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/table.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/table.json"
+}

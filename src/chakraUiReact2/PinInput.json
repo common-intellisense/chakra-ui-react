@@ -1,0 +1,159 @@
+{
+  "name": "PinInput",
+  "props": {
+    "autoFocus": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the pin input receives focus on mount",
+      "default": "",
+      "description_zh": "如果为 'true'，则 pin input 接收 mount 的焦点",
+      "value": ""
+    },
+    "colorScheme": {
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "defaultValue": {
+      "type": "string",
+      "required": false,
+      "description": "The default value of the pin input",
+      "default": "",
+      "description_zh": "pin input 的默认值",
+      "value": ""
+    },
+    "errorBorderColor": {
+      "type": "string",
+      "required": false,
+      "description": "The border color when the input is invalid. Use color keys in `theme.colors`",
+      "default": "",
+      "description_zh": "输入无效时的边框颜色。在 'theme.colors' 中使用颜色键",
+      "value": ""
+    },
+    "focusBorderColor": {
+      "type": "string",
+      "required": false,
+      "description": "The border color when the input is focused. Use color keys in `theme.colors`",
+      "default": "",
+      "description_zh": "聚焦输入时的边框颜色。在 'theme.colors' 中使用颜色键",
+      "value": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "description": "The top-level id string that will be applied to the input fields.\nThe index of the input will be appended to this top-level id.",
+      "default": "",
+      "description_zh": "将应用于输入字段的顶级 id 字符串。\ninput 的索引将附加到此顶级 id。",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the pin input component is put in the disabled state",
+      "default": "",
+      "description_zh": "如果为 'true'，则引脚输入组件处于禁用状态",
+      "value": ""
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the pin input component is put in the invalid state",
+      "default": "",
+      "description_zh": "如果为 'true'，则 pin input component 处于无效状态",
+      "value": ""
+    },
+    "manageFocus": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, focus will move automatically to the next input once filled",
+      "default": true,
+      "description_zh": "如果为 'true'，则填充后焦点将自动移动到下一个输入",
+      "value": ""
+    },
+    "mask": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the input's value will be masked just like `type=password`",
+      "default": "",
+      "description_zh": "如果为 'true'，则输入的值将被屏蔽，就像 'type=password' 一样",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(value: string) => void",
+      "required": false,
+      "description": "Function called on input change",
+      "default": "",
+      "description_zh": "在输入更改时调用的函数",
+      "value": ""
+    },
+    "onComplete": {
+      "type": "(value: string) => void",
+      "required": false,
+      "description": "Function called when all inputs have valid values",
+      "default": "",
+      "description_zh": "当所有输入都具有有效值时调用的函数",
+      "value": ""
+    },
+    "otp": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the pin input component signals to its fields that they should\nuse `autocomplete=\"one-time-code\"`.",
+      "default": "",
+      "description_zh": "如果为 'true'，则引脚输入组件向其字段发出信号，表明它们应该\n使用 'autocomplete=“one-time-code”'。",
+      "value": ""
+    },
+    "placeholder": {
+      "type": "string",
+      "required": false,
+      "description": "The placeholder for the pin input",
+      "default": "",
+      "description_zh": "pin input 的占位符",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "lg / md / sm / xs",
+      "required": false,
+      "description": "The size of the PinInput",
+      "default": "md",
+      "description_zh": "PinInput 的大小",
+      "value": ""
+    },
+    "type": {
+      "type": "number / alphanumeric",
+      "required": false,
+      "description": "The type of values the pin-input should allow",
+      "default": "",
+      "description_zh": "pin-input 应允许的值类型",
+      "value": ""
+    },
+    "value": {
+      "type": "string",
+      "required": false,
+      "description": "The value of the pin input. This is the value\nthat will be returned when the pin input is filled",
+      "default": "",
+      "description_zh": "pin input的值。这是 value\n当 pin input 被填充时，将返回",
+      "value": ""
+    },
+    "variant": {
+      "defaultValue": "outline",
+      "type": "outline / flushed / filled / unstyled",
+      "required": false,
+      "description": "The variant of the PinInput",
+      "default": "outline",
+      "description_zh": "PinInput 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/pin-input.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/pin-input.json"
+}

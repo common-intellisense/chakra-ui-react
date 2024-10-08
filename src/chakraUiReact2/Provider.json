@@ -1,0 +1,79 @@
+{
+  "name": "Provider",
+  "props": {
+    "colorModeManager": {
+      "type": "StorageManager",
+      "defaultValue": "localStorageManager",
+      "required": false,
+      "description": "manager to persist a users color mode preference in\n\nomit if you don't render server-side\nfor SSR: choose `cookieStorageManager`",
+      "default": "localStorageManager",
+      "description_zh": "管理器，用于在其中保留用户颜色模式首选项\n\n如果不渲染服务器端，则省略\n对于 SSR：选择“cookieStorageManager”",
+      "value": ""
+    },
+    "disableEnvironment": {
+      "type": "boolean",
+      "required": false,
+      "description": "Disabled the use of automatic window and document detection.\nThis removed the injected `<span/>` element",
+      "default": "",
+      "description_zh": "禁用了自动窗口和文档检测。\n这删除了注入的 '<span/>' 元素",
+      "value": ""
+    },
+    "disableGlobalStyle": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, Chakra will not mount the global styles defined in the theme.",
+      "default": "",
+      "description_zh": "如果为 'true'，则 Chakra 不会挂载主题中定义的全局样式。",
+      "value": ""
+    },
+    "environment": {
+      "type": "Environment",
+      "required": false,
+      "description": "The environment (`window` and `document`) to be used by\nall components and hooks.\n\nBy default, we smartly determine the ownerDocument and defaultView\nbased on where `ChakraProvider` is rendered.",
+      "default": "",
+      "description_zh": "要使用的环境（'window' 和 'document'）\n所有组件和钩子。\n\n默认情况下，我们智能地确定 ownerDocument 和 defaultView\n基于 'ChakraProvider' 的呈现位置。",
+      "value": ""
+    },
+    "portalZIndex": {
+      "type": "number",
+      "defaultValue": "undefined",
+      "required": false,
+      "description": "Common z-index to use for `Portal`",
+      "default": "undefined",
+      "description_zh": "用于“Portal”的常见 z-index",
+      "value": ""
+    },
+    "resetCSS": {
+      "type": "boolean",
+      "defaultValue": true,
+      "required": false,
+      "description": "If `true`, `CSSReset` component will be mounted to help\nyou reset browser styles",
+      "default": true,
+      "description_zh": "如果为 'true'，则将挂载 'CSSReset' 组件以帮助\n重置浏览器样式",
+      "value": ""
+    },
+    "resetScope": {
+      "type": "string",
+      "required": false,
+      "description": "The selector to scope the css reset styles to.",
+      "default": "",
+      "description_zh": "将 css reset 样式限定为的选择器。",
+      "value": ""
+    },
+    "theme": {
+      "type": "Dict",
+      "required": false,
+      "description": "a theme. if omitted, uses the default theme provided by chakra",
+      "default": "",
+      "description_zh": "一个主题。如果省略，则使用 Chakra 提供的默认主题",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/provider.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/provider.json"
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Button",
+  "props": {
+    "colorScheme": {
+      "defaultValue": "gray",
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "gray",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "iconSpacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The space between the button icon and label.",
+      "default": "",
+      "description_zh": "按钮图标和标签之间的间距。",
+      "value": ""
+    },
+    "isActive": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the button will be styled in its active state.",
+      "default": "",
+      "description_zh": "如果为 'true'，则按钮将在其活动状态下设置样式。",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the button will be disabled.",
+      "default": "",
+      "description_zh": "如果为 'true'，则该按钮将被禁用。",
+      "value": ""
+    },
+    "isLoading": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the button will show a spinner.",
+      "default": "",
+      "description_zh": "如果为 'true'，则按钮将显示一个微调器。",
+      "value": ""
+    },
+    "leftIcon": {
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>",
+      "required": false,
+      "description": "If added, the button will show an icon before the button's label.",
+      "default": "",
+      "description_zh": "如果添加，按钮将在按钮的标签之前显示一个图标。",
+      "value": ""
+    },
+    "loadingText": {
+      "type": "type ONLY_FOR_FORMAT =\n  | string\n  | number\n  | boolean\n  | ReactElement<any, string | JSXElementConstructor<any>>\n  | Iterable<ReactNode>\n  | ReactPortal\n  | PromiseLikeOfReactNode",
+      "required": false,
+      "description": "The label to show in the button when `isLoading` is true\nIf no text is passed, it only shows the spinner",
+      "default": "",
+      "description_zh": "当 'isLoading' 为 true 时，按钮中显示的标签\n如果未传递任何文本，则仅显示微调器",
+      "value": ""
+    },
+    "rightIcon": {
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>",
+      "required": false,
+      "description": "If added, the button will show an icon after the button's label.",
+      "default": "",
+      "description_zh": "如果添加，该按钮将在按钮的标签后显示一个图标。",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "lg / md / sm / xs",
+      "required": false,
+      "description": "The size of the Button",
+      "default": "md",
+      "description_zh": "Button 的大小",
+      "value": ""
+    },
+    "spinner": {
+      "type": "ReactElement<any, string | JSXElementConstructor<any>>",
+      "required": false,
+      "description": "Replace the spinner component when `isLoading` is set to `true`",
+      "default": "",
+      "description_zh": "当 'isLoading' 设置为 'true' 时替换微调器组件",
+      "value": ""
+    },
+    "spinnerPlacement": {
+      "type": "start / end",
+      "defaultValue": "start",
+      "required": false,
+      "description": "It determines the placement of the spinner when isLoading is true",
+      "default": "start",
+      "description_zh": "它确定当 isLoading 为 true 时微调器的位置",
+      "value": ""
+    },
+    "variant": {
+      "defaultValue": "solid",
+      "type": "ghost / outline / solid / link / unstyled",
+      "required": false,
+      "description": "The variant of the Button",
+      "default": "solid",
+      "description_zh": "Button 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/button.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/button.json"
+}

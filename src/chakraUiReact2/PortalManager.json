@@ -1,0 +1,20 @@
+{
+  "name": "PortalManager",
+  "props": {
+    "zIndex": {
+      "type": "number",
+      "required": false,
+      "description": "[Z-Index war] If your has multiple elements\nwith z-index clashing, you might need to apply a z-index to the Portal manager",
+      "default": "",
+      "description_zh": "[Z 指数战争]如果您的有多个元素\n如果 z-index 冲突，则可能需要将 z-index 应用于 Portal Manager",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/portal.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/portal.json"
+}

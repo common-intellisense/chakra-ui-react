@@ -1,0 +1,2149 @@
+{
+  "name": "Slide",
+  "props": {
+    "about": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "accessKey": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-activedescendant": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-atomic": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-autocomplete": {
+      "type": "list / none / inline / both",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-braillelabel": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-brailleroledescription": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-busy": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-checked": {
+      "type": "boolean | \"true\" | \"false\" | \"mixed\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-colcount": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-colindex": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-colindextext": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-colspan": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-controls": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-current": {
+      "type": "type ONLY_FOR_FORMAT =\n  | boolean\n  | \"time\"\n  | \"true\"\n  | \"false\"\n  | \"page\"\n  | \"step\"\n  | \"location\"\n  | \"date\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-describedby": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-description": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-details": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-disabled": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-dropeffect": {
+      "type": "link / none / copy / move / execute / popup",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-errormessage": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-expanded": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-flowto": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-grabbed": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-haspopup": {
+      "type": "type ONLY_FOR_FORMAT =\n  | boolean\n  | \"dialog\"\n  | \"menu\"\n  | \"true\"\n  | \"false\"\n  | \"grid\"\n  | \"listbox\"\n  | \"tree\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-hidden": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-invalid": {
+      "type": "boolean | \"true\" | \"false\" | \"grammar\" | \"spelling\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-keyshortcuts": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-label": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-labelledby": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-level": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-live": {
+      "type": "off / assertive / polite",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-modal": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-multiline": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-multiselectable": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-orientation": {
+      "type": "horizontal / vertical",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-owns": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-placeholder": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-posinset": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-pressed": {
+      "type": "boolean | \"true\" | \"false\" | \"mixed\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-readonly": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-relevant": {
+      "type": "type ONLY_FOR_FORMAT =\n  | \"text\"\n  | \"all\"\n  | \"additions\"\n  | \"additions removals\"\n  | \"additions text\"\n  | \"removals\"\n  | \"removals additions\"\n  | \"removals text\"\n  | \"text additions\"\n  | \"text removals\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-required": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-roledescription": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-rowcount": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-rowindex": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-rowindextext": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-rowspan": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-selected": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-setsize": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-sort": {
+      "type": "none / ascending / descending / other",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-valuemax": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-valuemin": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-valuenow": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-valuetext": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "autoCapitalize": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "autoCorrect": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "autoSave": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "className": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "color": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "content": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "contentEditable": {
+      "type": "\"inherit\" | Booleanish | \"plaintext-only\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "contextMenu": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "dangerouslySetInnerHTML": {
+      "type": "{ __html: string | TrustedHTML }",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "datatype": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "defaultChecked": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "defaultValue": {
+      "type": "string | number | readonly string[]",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "delay": {
+      "type": "number | Partial<Record<\"enter\" | \"exit\", number>>",
+      "required": false,
+      "description": "Custom `delay` definition for `enter` and `exit`",
+      "default": "",
+      "description_zh": "“enter”和“exit”的自定义“延迟”定义",
+      "value": ""
+    },
+    "dir": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "direction": {
+      "type": "SlideDirection",
+      "defaultValue": "right",
+      "required": false,
+      "description": "The direction to slide from",
+      "default": "right",
+      "description_zh": "滑动方向",
+      "value": ""
+    },
+    "draggable": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "hidden": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "in": {
+      "type": "boolean",
+      "required": false,
+      "description": "Show the component; triggers when enter or exit states",
+      "default": "",
+      "description_zh": "显示组件;在 ENTER 或 EXIT 状态时触发",
+      "value": ""
+    },
+    "inlist": {
+      "type": "any",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "inputMode": {
+      "type": "type ONLY_FOR_FORMAT =\n  | \"search\"\n  | \"none\"\n  | \"text\"\n  | \"tel\"\n  | \"url\"\n  | \"email\"\n  | \"numeric\"\n  | \"decimal\"",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "is": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "itemID": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "itemProp": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "itemRef": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "itemScope": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "itemType": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "lang": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "motionProps": {
+      "type": "HTMLMotionProps<\"div\">",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "nonce": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAbort": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAbortCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAnimationEnd": {
+      "type": "AnimationEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAnimationEndCapture": {
+      "type": "AnimationEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAnimationIteration": {
+      "type": "AnimationEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAnimationIterationCapture": {
+      "type": "AnimationEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAnimationStartCapture": {
+      "type": "AnimationEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAuxClick": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onAuxClickCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onBeforeInput": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onBeforeInputCapture": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onBlur": {
+      "type": "FocusEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onBlurCapture": {
+      "type": "FocusEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCanPlay": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCanPlayCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCanPlayThrough": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCanPlayThroughCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onChange": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onChangeCapture": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onClick": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onClickCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCompositionEnd": {
+      "type": "CompositionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCompositionEndCapture": {
+      "type": "CompositionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCompositionStart": {
+      "type": "CompositionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCompositionStartCapture": {
+      "type": "CompositionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCompositionUpdate": {
+      "type": "CompositionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCompositionUpdateCapture": {
+      "type": "CompositionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onContextMenu": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onContextMenuCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCopy": {
+      "type": "ClipboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCopyCapture": {
+      "type": "ClipboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCut": {
+      "type": "ClipboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onCutCapture": {
+      "type": "ClipboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDoubleClick": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDoubleClickCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragEndCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragEnter": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragEnterCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragExit": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragExitCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragLeave": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragLeaveCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragOver": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragOverCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDragStartCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDrop": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDropCapture": {
+      "type": "DragEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDurationChange": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onDurationChangeCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onEmptied": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onEmptiedCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onEncrypted": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onEncryptedCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onEnded": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onEndedCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onError": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onErrorCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onFocus": {
+      "type": "FocusEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onFocusCapture": {
+      "type": "FocusEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onGotPointerCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onGotPointerCaptureCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onInput": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onInputCapture": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onInvalid": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onInvalidCapture": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onKeyDown": {
+      "type": "KeyboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onKeyDownCapture": {
+      "type": "KeyboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onKeyPress": {
+      "type": "KeyboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onKeyPressCapture": {
+      "type": "KeyboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onKeyUp": {
+      "type": "KeyboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onKeyUpCapture": {
+      "type": "KeyboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoad": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoadCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoadedData": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoadedDataCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoadedMetadata": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoadedMetadataCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoadStart": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLoadStartCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLostPointerCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onLostPointerCaptureCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseDown": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseDownCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseEnter": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseLeave": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseMove": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseMoveCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseOut": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseOutCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseOver": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseOverCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseUp": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onMouseUpCapture": {
+      "type": "MouseEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPaste": {
+      "type": "ClipboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPasteCapture": {
+      "type": "ClipboardEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPause": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPauseCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPlay": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPlayCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPlaying": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPlayingCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerCancel": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerCancelCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerDown": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerDownCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerEnter": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerEnterCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerLeave": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerLeaveCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerMove": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerMoveCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerOut": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerOutCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerOver": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerOverCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerUp": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onPointerUpCapture": {
+      "type": "PointerEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onProgress": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onProgressCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onRateChange": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onRateChangeCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onReset": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onResetCapture": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onResize": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onResizeCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onScroll": {
+      "type": "UIEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onScrollCapture": {
+      "type": "UIEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSeeked": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSeekedCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSeeking": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSeekingCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSelect": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSelectCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onStalled": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onStalledCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSubmit": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSubmitCapture": {
+      "type": "FormEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSuspend": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onSuspendCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTimeUpdate": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTimeUpdateCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchCancel": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchCancelCapture": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchEnd": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchEndCapture": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchMove": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchMoveCapture": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchStart": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTouchStartCapture": {
+      "type": "TouchEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTransitionEnd": {
+      "type": "TransitionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onTransitionEndCapture": {
+      "type": "TransitionEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onVolumeChange": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onVolumeChangeCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onWaiting": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onWaitingCapture": {
+      "type": "ReactEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onWheel": {
+      "type": "WheelEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "onWheelCapture": {
+      "type": "WheelEventHandler<HTMLDivElement>",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "placeholder": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "prefix": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "property": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "radioGroup": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "rel": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "resource": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "results": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "rev": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "role": {
+      "type": "AriaRole",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "security": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "slot": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "spellCheck": {
+      "type": "Booleanish",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "suppressContentEditableWarning": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "suppressHydrationWarning": {
+      "type": "boolean",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "tabIndex": {
+      "type": "number",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "title": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "transition": {
+      "type": "Partial<Record<\"enter\" | \"exit\", Transition$1>>",
+      "required": false,
+      "description": "Custom `transition` definition for `enter` and `exit`",
+      "default": "",
+      "description_zh": "“enter”和“exit”的自定义“transition”定义",
+      "value": ""
+    },
+    "transitionEnd": {
+      "type": "Partial<\n  Record<\"enter\" | \"exit\", MakeCustomValueType<TargetProperties>>\n>",
+      "required": false,
+      "description": "Custom `transitionEnd` definition for `enter` and `exit`",
+      "default": "",
+      "description_zh": "“enter”和“exit”的自定义“transitionEnd”定义",
+      "value": ""
+    },
+    "translate": {
+      "type": "yes / no",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "typeof": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "unmountOnExit": {
+      "type": "boolean",
+      "required": false,
+      "description": "If `true`, the element will unmount when `in={false}` and animation is done",
+      "default": "",
+      "description_zh": "如果为 'true'，则元素将在 'in={false}' 时卸载，并且动画完成",
+      "value": ""
+    },
+    "unselectable": {
+      "type": "on / off",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "vocab": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/transition.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/transition.json"
+}

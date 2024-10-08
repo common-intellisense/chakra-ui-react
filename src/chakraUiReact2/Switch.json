@@ -1,0 +1,198 @@
+{
+  "name": "Switch",
+  "props": {
+    "aria-describedby": {
+      "type": "string",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-invalid": {
+      "type": "true",
+      "required": false,
+      "default": "",
+      "description": "",
+      "value": "",
+      "description_zh": ""
+    },
+    "aria-label": {
+      "type": "string",
+      "required": false,
+      "description": "Defines the string that labels the checkbox element.",
+      "default": "",
+      "description_zh": "定义用于标记 checkbox 元素的字符串。",
+      "value": ""
+    },
+    "aria-labelledby": {
+      "type": "string",
+      "required": false,
+      "description": "Refers to the `id` of the element that labels the checkbox element.",
+      "default": "",
+      "description_zh": "引用标记复选框元素的元素的 'id'。",
+      "value": ""
+    },
+    "colorScheme": {
+      "defaultValue": "blue",
+      "type": "whiteAlpha / blackAlpha / gray / red / orange / yellow / green / teal / blue / cyan / purple / pink",
+      "required": false,
+      "description": "The visual color appearance of the component",
+      "default": "blue",
+      "description_zh": "组件的视觉颜色外观",
+      "value": ""
+    },
+    "defaultChecked": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the checkbox will be initially checked.",
+      "default": "",
+      "description_zh": "如果为 'true'，则最初将选中该复选框。",
+      "value": ""
+    },
+    "id": {
+      "type": "string",
+      "required": false,
+      "description": "id assigned to input",
+      "default": "",
+      "description_zh": "分配给 input 的 ID",
+      "value": ""
+    },
+    "isChecked": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the checkbox will be checked.\nYou'll need to pass `onChange` to update its value (since it is now controlled)",
+      "default": "",
+      "description_zh": "如果为 'true'，则复选框将被选中。\n您需要传递 'onChange' 来更新其值（因为它现在是受控的）",
+      "value": ""
+    },
+    "isDisabled": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the checkbox will be disabled",
+      "default": "",
+      "description_zh": "如果为 'true'，则复选框将被禁用",
+      "value": ""
+    },
+    "isFocusable": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true` and `isDisabled` is passed, the checkbox will\nremain tabbable but not interactive",
+      "default": "",
+      "description_zh": "如果传递 'true' 和 'isDisabled'，则复选框将\n保持可 Tab 键但不交互",
+      "value": ""
+    },
+    "isInvalid": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the checkbox is marked as invalid.\nChanges style of unchecked state.",
+      "default": "",
+      "description_zh": "如果为 'true'，则复选框标记为无效。\n更改未选中状态的样式。",
+      "value": ""
+    },
+    "isReadOnly": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the checkbox will be readonly",
+      "default": "",
+      "description_zh": "如果为 'true'，则复选框将为只读",
+      "value": ""
+    },
+    "isRequired": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the checkbox input is marked as required,\nand `required` attribute will be added",
+      "default": "",
+      "description_zh": "如果为 'true'，则复选框输入标记为必填，\n和 'required' 属性",
+      "value": ""
+    },
+    "name": {
+      "type": "string",
+      "required": false,
+      "description": "The name of the input field in a checkbox\n(Useful for form submission).",
+      "default": "",
+      "description_zh": "复选框中输入字段的名称\n（用于表单提交）。",
+      "value": ""
+    },
+    "onBlur": {
+      "type": "(event: FocusEvent<HTMLInputElement, Element>) => void",
+      "required": false,
+      "description": "The callback invoked when the checkbox is blurred (loses focus)",
+      "default": "",
+      "description_zh": "复选框模糊（失去焦点）时调用的回调",
+      "value": ""
+    },
+    "onChange": {
+      "type": "(event: ChangeEvent<HTMLInputElement>) => void",
+      "required": false,
+      "description": "The callback invoked when the checked state of the `Checkbox` changes.",
+      "default": "",
+      "description_zh": "当 'Checkbox' 的选中状态发生变化时调用的回调。",
+      "value": ""
+    },
+    "onFocus": {
+      "type": "(event: FocusEvent<HTMLInputElement, Element>) => void",
+      "required": false,
+      "description": "The callback invoked when the checkbox is focused",
+      "default": "",
+      "description_zh": "聚焦复选框时调用的回调",
+      "value": ""
+    },
+    "size": {
+      "defaultValue": "md",
+      "type": "sm / md / lg",
+      "required": false,
+      "description": "The size of the Switch",
+      "default": "md",
+      "description_zh": "Switch 的大小",
+      "value": ""
+    },
+    "spacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "defaultValue": "0.5rem",
+      "required": false,
+      "description": "The spacing between the switch and its label text",
+      "default": "0.5rem",
+      "description_zh": "开关与其标签文本之间的间距",
+      "value": ""
+    },
+    "tabIndex": {
+      "type": "number",
+      "required": false,
+      "description": "The tab-index property of the underlying input element.",
+      "default": "",
+      "description_zh": "基础 input 元素的 tab-index 属性。",
+      "value": ""
+    },
+    "value": {
+      "type": "string | number",
+      "required": false,
+      "description": "The value to be used in the checkbox input.\nThis is the value that will be returned on form submission.",
+      "default": "",
+      "description_zh": "要在复选框输入中使用的值。\n这是表单提交时将返回的值。",
+      "value": ""
+    },
+    "variant": {
+      "type": "string",
+      "required": false,
+      "description": "The variant of the Switch",
+      "default": "",
+      "description_zh": "Switch 的变体",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/switch.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/switch.json"
+}

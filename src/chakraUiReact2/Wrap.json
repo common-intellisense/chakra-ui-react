@@ -1,0 +1,69 @@
+{
+  "name": "Wrap",
+  "props": {
+    "align": {
+      "type": "ResponsiveValue<AlignItems>",
+      "required": false,
+      "description": "The `align-items` value (for main axis alignment)",
+      "default": "",
+      "description_zh": "'align-items' 值（用于主轴对齐）",
+      "value": ""
+    },
+    "direction": {
+      "type": "ResponsiveValue<FlexDirection>",
+      "required": false,
+      "description": "The `flex-direction` value",
+      "default": "",
+      "description_zh": "'flex-direction' 值",
+      "value": ""
+    },
+    "justify": {
+      "type": "ResponsiveValue<JustifyContent>",
+      "required": false,
+      "description": "The `justify-content` value (for cross-axis alignment)",
+      "default": "",
+      "description_zh": "'justify-content' 值（用于跨轴对齐）",
+      "value": ""
+    },
+    "shouldWrapChildren": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the children will be wrapped in a `WrapItem`",
+      "default": "",
+      "description_zh": "如果为 'true'，则子项将被包装在 'WrapItem' 中",
+      "value": ""
+    },
+    "spacing": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The space between each child (even if it wraps)",
+      "default": "",
+      "description_zh": "每个子项之间的间距（即使它换行）",
+      "value": ""
+    },
+    "spacingX": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The horizontal space between the each child (even if it wraps). Defaults to `spacing` if not defined.",
+      "default": "",
+      "description_zh": "每个子对象之间的水平间距（即使它换行）。如果未定义，则默认为 'spacing' 。",
+      "value": ""
+    },
+    "spacingY": {
+      "type": "ResponsiveValue<string | number | (string & {})>",
+      "required": false,
+      "description": "The vertical space between the each child (even if it wraps). Defaults to `spacing` if not defined.",
+      "default": "",
+      "description_zh": "每个子项之间的垂直间距（即使它换行）。如果未定义，则默认为 'spacing' 。",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/wrap.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/wrap.json"
+}

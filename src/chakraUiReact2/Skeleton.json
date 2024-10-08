@@ -1,0 +1,64 @@
+{
+  "name": "Skeleton",
+  "props": {
+    "endColor": {
+      "type": "string",
+      "required": false,
+      "description": "The color at the animation end",
+      "default": "",
+      "description_zh": "动画结束时的颜色",
+      "value": ""
+    },
+    "fadeDuration": {
+      "type": "number",
+      "defaultValue": "0.4",
+      "required": false,
+      "description": "The fadeIn duration in seconds. Requires `isLoaded` toggled to `true` in order to see the transition.",
+      "default": "0.4",
+      "description_zh": "fadeIn 持续时间（以秒为单位）。需要将 'isLoaded' 切换为 'true' 才能看到过渡。",
+      "value": ""
+    },
+    "fitContent": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, the skeleton will take the width of it's children",
+      "default": "",
+      "description_zh": "如果为 'true'，则骨架将采用其子项的宽度",
+      "value": ""
+    },
+    "isLoaded": {
+      "type": "boolean",
+      "defaultValue": false,
+      "required": false,
+      "description": "If `true`, it'll render its children with a nice fade transition",
+      "default": "",
+      "description_zh": "如果为 'true'，它将以漂亮的淡化过渡渲染其子项",
+      "value": ""
+    },
+    "speed": {
+      "type": "number",
+      "defaultValue": "0.8",
+      "required": false,
+      "description": "The animation speed in seconds",
+      "default": "0.8",
+      "description_zh": "动画速度（以秒为单位）",
+      "value": ""
+    },
+    "startColor": {
+      "type": "string",
+      "required": false,
+      "description": "The color at the animation start",
+      "default": "",
+      "description_zh": "动画开始时的颜色",
+      "value": ""
+    }
+  },
+  "events": [],
+  "slots": [],
+  "typeDetail": {},
+  "suggestions": [],
+  "methods": [],
+  "link": "https://v2.chakra-ui.com/docs/components/skeleton.json",
+  "link_zh": "https://v2.chakra-ui.com/docs/components/skeleton.json"
+}
